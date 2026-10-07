@@ -1,0 +1,1792 @@
+{
+ "tiles": [
+  {
+   "text": "1:47",
+   "x": 1042,
+   "y": 964,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "1:23",
+   "x": 1042,
+   "y": 1227,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "",
+   "x": 1042,
+   "y": 1491,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "How the Rams, Cowboys, Patriots pulled W",
+   "x": 1042,
+   "y": 1658,
+   "w": 276,
+   "h": 110
+  },
+  {
+   "text": "",
+   "x": 1042,
+   "y": 1783,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "",
+   "x": 1042,
+   "y": 2043,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "Behind the scenes inside LeBron's first ",
+   "x": 1042,
+   "y": 2210,
+   "w": 276,
+   "h": 94
+  },
+  {
+   "text": "",
+   "x": 1042,
+   "y": 2319,
+   "w": 276,
+   "h": 167
+  },
+  {
+   "text": "Man City mock draft: How Premier League ",
+   "x": 1042,
+   "y": 2487,
+   "w": 276,
+   "h": 110
+  },
+  {
+   "text": "",
+   "x": 1042,
+   "y": 2612,
+   "w": 276,
+   "h": 167
+  }
+ ],
+ "url": "https://www.espn.com/",
+ "title": "ESPN - Serving Sports Fans. Anytime. Anywhere.",
+ "width": 1440,
+ "height": 23842,
+ "headings": [
+  {
+   "tag": "H2",
+   "text": "ESPN",
+   "x": 20,
+   "y": 0,
+   "w": 93,
+   "h": 44
+  },
+  {
+   "tag": "H2",
+   "text": "📍Watch on ESPN",
+   "x": 122,
+   "y": 353,
+   "w": 108,
+   "h": 20
+  },
+  {
+   "tag": "H2",
+   "text": "Quick Links",
+   "x": 122,
+   "y": 753,
+   "w": 71,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "Customize ESPN",
+   "x": 122,
+   "y": 1045,
+   "w": 196,
+   "h": 44
+  },
+  {
+   "tag": "H2",
+   "text": "Fantasy",
+   "x": 122,
+   "y": 1211,
+   "w": 49,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "ESPN Sites",
+   "x": 122,
+   "y": 1445,
+   "w": 68,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "ESPN Apps",
+   "x": 122,
+   "y": 1711,
+   "w": 68,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "Follow ESPN",
+   "x": 122,
+   "y": 1873,
+   "w": 76,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "Follow live: Padres take on Brewers in NLDS Game 3",
+   "x": 382,
+   "y": 515,
+   "w": 592,
+   "h": 28
+  },
+  {
+   "tag": "H2",
+   "text": "New York Islanders vs. New York Rangers",
+   "x": 378,
+   "y": 1143,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Oliver Bjorkstrand's 2nd goal restores Rangers' lead",
+   "x": 378,
+   "y": 1288,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Bo Horvat, Calum Ritchie score pair of goals to tie it for Islanders",
+   "x": 538,
+   "y": 1288,
+   "w": 121,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Alexis Lafreniere gives Rangers a 2-0 lead",
+   "x": 697,
+   "y": 1288,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Oliver Bjorkstrand fires in a goal for Rangers",
+   "x": 857,
+   "y": 1288,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Enrique Hernandez crushes two-run HR as Dodgers take Game 3",
+   "x": 378,
+   "y": 1899,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Dodgers take down Braves in Atlanta",
+   "x": 378,
+   "y": 2063,
+   "w": 121,
+   "h": 32
+  },
+  {
+   "tag": "H2",
+   "text": "Yoshinobu Yamamoto shuts down Braves with 10-K gem",
+   "x": 538,
+   "y": 2063,
+   "w": 121,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Shohei Ohtani chases pitch out of zone for strike three",
+   "x": 697,
+   "y": 2063,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Freddie Freeman smashes a home run for the Dodgers",
+   "x": 857,
+   "y": 2063,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Mauricio Dubon races to wall for sensational HR robbery",
+   "x": 1038,
+   "y": 2063,
+   "w": 121,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Southern Miss vs. Troy",
+   "x": 378,
+   "y": 2709,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Goose Crowder plows into the end zone for his 2nd rushing TD",
+   "x": 378,
+   "y": 2854,
+   "w": 121,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Landry Lyddy threads the needle for a Southern Miss TD",
+   "x": 538,
+   "y": 2854,
+   "w": 121,
+   "h": 64
+  },
+  {
+   "tag": "H2",
+   "text": "Goose Crowder runs over a defender on his way to a Troy TD",
+   "x": 697,
+   "y": 2854,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Jordan Lovett breaks free for a 15-yard Troy TD",
+   "x": 857,
+   "y": 2854,
+   "w": 121,
+   "h": 48
+  },
+  {
+   "tag": "H2",
+   "text": "Follow live: Justin Ellis scores to put USMNT on the board",
+   "x": 378,
+   "y": 3363,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "NHL SCOREBOARD",
+   "x": 414,
+   "y": 3675,
+   "w": 133,
+   "h": 18
+  },
+  {
+   "tag": "H2",
+   "text": "LIGHTING THE LAMP",
+   "x": 414,
+   "y": 4002,
+   "w": 146,
+   "h": 18
+  },
+  {
+   "tag": "H2",
+   "text": "No. 1 pick Gavin McKenna scores his first NHL goal",
+   "x": 378,
+   "y": 4408,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Justin Faulk weaves through two defenders for outstanding goal",
+   "x": 378,
+   "y": 4841,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "NHL Rank: From 1 to 100, who will be the best players in 2026-27?",
+   "x": 366,
+   "y": 5191,
+   "w": 624,
+   "h": 68
+  },
+  {
+   "tag": "H2",
+   "text": "WNBA SEMIFINALS SCOREBOARD",
+   "x": 414,
+   "y": 5321,
+   "w": 238,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "ACTION CONTINUES WEDNESDAY",
+   "x": 414,
+   "y": 5339,
+   "w": 238,
+   "h": 12
+  },
+  {
+   "tag": "H2",
+   "text": "Gray out, Loyd doubtful: How injuries will impact the WNBA semifinals",
+   "x": 378,
+   "y": 5631,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "INSIDE POSTSEASON BASEBALL",
+   "x": 414,
+   "y": 5857,
+   "w": 228,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 5875,
+   "w": 228,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Our early hot takes from the MLB playoffs: The year of the Brewers? A homerless ",
+   "x": 378,
+   "y": 6162,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "Ranking home-field advantage for all 8 remaining playoff teams",
+   "x": 616,
+   "y": 6263,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "NBA PRESEASON SCOREBOARD",
+   "x": 414,
+   "y": 6428,
+   "w": 225,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 6446,
+   "w": 225,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "AROUND THE LEAGUE",
+   "x": 414,
+   "y": 6621,
+   "w": 154,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 6639,
+   "w": 154,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Updated NFL Power Rankings: Where do the final three undefeated teams stand afte",
+   "x": 378,
+   "y": 6926,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "Seven things Solak thinks: Jags are the AFC's best team? Ben Johnson for COTY?",
+   "x": 616,
+   "y": 7027,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "BEST OF FIRST TAKE",
+   "x": 414,
+   "y": 7244,
+   "w": 143,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 7262,
+   "w": 143,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "'This is disgraceful!' Stephen A. calls out Aaron Boone, Yankees",
+   "x": 378,
+   "y": 7650,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiati",
+   "x": 378,
+   "y": 8084,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "MLB PLAYOFFS SCOREBOARD",
+   "x": 414,
+   "y": 8258,
+   "w": 210,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 8276,
+   "w": 210,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "AROUND THE ASSOCIATION",
+   "x": 414,
+   "y": 8451,
+   "w": 196,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 8469,
+   "w": 196,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Five ways new NBA lottery rules could impact this season",
+   "x": 378,
+   "y": 8756,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Why Stephen A. trusts LeBron to be playoff-ready",
+   "x": 378,
+   "y": 9189,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "LOOKING AHEAD TO THE POSTSEASON",
+   "x": 414,
+   "y": 9336,
+   "w": 276,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 9354,
+   "w": 276,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "CFP Bubble Watch: Perfection not a prerequisite for playoff",
+   "x": 378,
+   "y": 9641,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Latest CFP, bowl projections: How did the postseason picture shift after Week 5?",
+   "x": 616,
+   "y": 9721,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "CALLING IT A CAREER",
+   "x": 414,
+   "y": 9982,
+   "w": 153,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 10000,
+   "w": 153,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Dan Orlovsky: Lane Johnson's retirement a 'significant loss' for Eagles",
+   "x": 378,
+   "y": 10388,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "ASSESSING THE NFL",
+   "x": 414,
+   "y": 10535,
+   "w": 146,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 10553,
+   "w": 146,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "MVP?! Three keys to watch if Panthers QB Bryce Young is on that path",
+   "x": 378,
+   "y": 10840,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Why a Tyreek Hill-Chiefs reunion makes so much sense",
+   "x": 616,
+   "y": 10920,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "HEAR WHAT STEPHEN A. HAS TO SAY",
+   "x": 414,
+   "y": 11137,
+   "w": 260,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 11155,
+   "w": 260,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Stephen A. puzzled why Zac Taylor not under more scrutiny for Bengals' woes",
+   "x": 378,
+   "y": 11543,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Stephen A. praises 'formidable' Falcons, Bijan after thumping Saints",
+   "x": 378,
+   "y": 11977,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "With their backs against the wall, Padres look to Fernando Tatis Jr.",
+   "x": 366,
+   "y": 12327,
+   "w": 624,
+   "h": 68
+  },
+  {
+   "tag": "H2",
+   "text": "STARS OF THE GAME",
+   "x": 414,
+   "y": 12463,
+   "w": 147,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 12481,
+   "w": 147,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Could Jeremiah Smith turn Heisman race into a runaway?",
+   "x": 378,
+   "y": 12768,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "A look inside the small hometown of college football's big new star, Kamario Tay",
+   "x": 616,
+   "y": 12848,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "'THE PAT MCAFEE SHOW'",
+   "x": 414,
+   "y": 13065,
+   "w": 176,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 13083,
+   "w": 176,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "What Kevin O'Connell sees in Kyler Murray",
+   "x": 378,
+   "y": 13471,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Bryce Young: 'We rally around the city in the same way they rally around us'",
+   "x": 378,
+   "y": 13904,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "MLS SCOREBOARD",
+   "x": 414,
+   "y": 13999,
+   "w": 134,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 14017,
+   "w": 134,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "ACTION ON THE PITCH",
+   "x": 414,
+   "y": 14192,
+   "w": 160,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 14210,
+   "w": 160,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "England's Nations League takeaways: Kane makes history, Tuchel steadies ship",
+   "x": 378,
+   "y": 14497,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Nicol: England must keep their winning mentality",
+   "x": 378,
+   "y": 14931,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "GLOBAL SOCCER SCOREBOARD",
+   "x": 414,
+   "y": 15026,
+   "w": 223,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 15044,
+   "w": 223,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "GLOBAL SOCCER",
+   "x": 414,
+   "y": 15219,
+   "w": 120,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 15237,
+   "w": 120,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Mock draft: How would Premier League teams pick if Man City cheating scandal too",
+   "x": 378,
+   "y": 15524,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "How a mass Man City player exodus would warp the transfer market",
+   "x": 616,
+   "y": 15625,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "How top Premier League clubs view Man City's guilty verdict",
+   "x": 366,
+   "y": 16142,
+   "w": 624,
+   "h": 68
+  },
+  {
+   "tag": "H2",
+   "text": "LATEST FROM THE NHL",
+   "x": 414,
+   "y": 16278,
+   "w": 164,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 16296,
+   "w": 164,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "NHL Tonight: Get ready for Round 1 of the Battle of New York",
+   "x": 378,
+   "y": 16583,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "MEN'S COLLEGE HOOPS",
+   "x": 414,
+   "y": 16688,
+   "w": 170,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 16706,
+   "w": 170,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Bracketology: With four weeks to go, Florida (unsurprisingly) remains No. 1",
+   "x": 378,
+   "y": 16993,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Rosters latest: Players in eligibility limbo, transfers, recruits, more",
+   "x": 616,
+   "y": 17073,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "FANTASY FOOTBALL",
+   "x": 414,
+   "y": 17290,
+   "w": 142,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 17308,
+   "w": 142,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Rankings for Week 5",
+   "x": 378,
+   "y": 17595,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Fantasy football buzz: Lane Johnson retirement is bad news for Jalen Hurts, Eagl",
+   "x": 616,
+   "y": 17675,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "MONEY IN THE BANK",
+   "x": 414,
+   "y": 17930,
+   "w": 207,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "4 P.M. ET SATURDAY ON ESPN UNLIMITED",
+   "x": 414,
+   "y": 17948,
+   "w": 207,
+   "h": 12
+  },
+  {
+   "tag": "H2",
+   "text": "Is CM Punk the favorite to win Money in the Bank?",
+   "x": 378,
+   "y": 18342,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "'Just put it in a briefcase': The making of the first WWE Money in the Bank matc",
+   "x": 616,
+   "y": 18422,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "INSIDE THE OCTAGON",
+   "x": 414,
+   "y": 18639,
+   "w": 155,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 18657,
+   "w": 155,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "MMA divisional rankings: It's not just fight results that shuffle top 10s",
+   "x": 378,
+   "y": 18944,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "HOW THEY STACK UP",
+   "x": 414,
+   "y": 19049,
+   "w": 149,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 19067,
+   "w": 149,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Boxing divisional rankings: Whittaker wins title eliminator to move up at light ",
+   "x": 378,
+   "y": 19354,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "NCAA WOMEN'S VOLLEYBALL SCOREBOARD",
+   "x": 414,
+   "y": 19470,
+   "w": 310,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 19488,
+   "w": 310,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "NCAA MEN'S SOCCER SCOREBOARD",
+   "x": 414,
+   "y": 20034,
+   "w": 257,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 20052,
+   "w": 257,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "A RACE AGAINST TIME",
+   "x": 414,
+   "y": 20227,
+   "w": 157,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 20245,
+   "w": 157,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Kiribati races to make the World Cup -- before the country disappears beneath th",
+   "x": 378,
+   "y": 20532,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "TRANSFER TALK",
+   "x": 414,
+   "y": 20658,
+   "w": 116,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 20676,
+   "w": 116,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Transfer rumors, news: Atleti, Juve eye loan move for Arsenal's Madueke",
+   "x": 378,
+   "y": 20963,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "SPORTS BETTING",
+   "x": 414,
+   "y": 21482,
+   "w": 125,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 21500,
+   "w": 125,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Stanley Cup odds: Panthers, Hurricanes tied atop championship odds board",
+   "x": 378,
+   "y": 21787,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Early bets for Week 5: Three games to target right away",
+   "x": 616,
+   "y": 21867,
+   "w": 362,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "FANTASY MEN'S BASKETBALL",
+   "x": 414,
+   "y": 22423,
+   "w": 210,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 22441,
+   "w": 210,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Did you miss the NBA offseason? Here's what to know for 2026-27",
+   "x": 378,
+   "y": 22728,
+   "w": 600,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "FANTASY HOCKEY",
+   "x": 414,
+   "y": 22875,
+   "w": 128,
+   "h": 18
+  },
+  {
+   "tag": "H3",
+   "text": "",
+   "x": 414,
+   "y": 22893,
+   "w": 128,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "Who has a high floor and a path to power-play points? These fantasy hockey picks",
+   "x": 378,
+   "y": 23180,
+   "w": 600,
+   "h": 42
+  },
+  {
+   "tag": "H2",
+   "text": "Top Headlines",
+   "x": 1042,
+   "y": 164,
+   "w": 276,
+   "h": 44
+  },
+  {
+   "tag": "H2",
+   "text": "ICYMI",
+   "x": 1042,
+   "y": 935,
+   "w": 37,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "Dillon Brooks and John Collins get into heated preseason scuffle",
+   "x": 1042,
+   "y": 1131,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Sounding Off",
+   "x": 1042,
+   "y": 1198,
+   "w": 81,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "Tedy Bruschi: NFL officials need to show more self-control",
+   "x": 1042,
+   "y": 1395,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Trending Now",
+   "x": 1042,
+   "y": 1461,
+   "w": 85,
+   "h": 15
+  },
+  {
+   "tag": "H2",
+   "text": "How the Rams, Cowboys, Patriots pulled Week 4 comebacks to save their seasons",
+   "x": 1042,
+   "y": 1658,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Connelly: Week 5 brought clarity, confusion to conference races",
+   "x": 1042,
+   "y": 1950,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Behind the scenes inside LeBron's first 76ers training camp",
+   "x": 1042,
+   "y": 2210,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Man City mock draft: How Premier League teams could pick in hypothetical punishm",
+   "x": 1042,
+   "y": 2487,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Tarik Skubal's free agency contract, predicted by MLB insiders",
+   "x": 1042,
+   "y": 2779,
+   "w": 276,
+   "h": 30
+  },
+  {
+   "tag": "H2",
+   "text": "Sign up to play the #1 Fantasy game!",
+   "x": 1050,
+   "y": 2936,
+   "w": 0,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "text": "📍Watch on ESPN",
+   "x": 134,
+   "y": 23303,
+   "w": 115,
+   "h": 21
+  },
+  {
+   "tag": "H2",
+   "text": "Quick Links",
+   "x": 373,
+   "y": 23305,
+   "w": 75,
+   "h": 16
+  },
+  {
+   "tag": "H2",
+   "text": "Fantasy",
+   "x": 612,
+   "y": 23305,
+   "w": 51,
+   "h": 16
+  },
+  {
+   "tag": "H2",
+   "text": "ESPN Sites",
+   "x": 852,
+   "y": 23305,
+   "w": 71,
+   "h": 16
+  },
+  {
+   "tag": "H2",
+   "text": "ESPN Apps",
+   "x": 1091,
+   "y": 23305,
+   "w": 72,
+   "h": 16
+  }
+ ],
+ "images": [
+  {
+   "alt": "",
+   "x": 366,
+   "y": 252,
+   "w": 628,
+   "h": 251
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 778,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 1192,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 526,
+   "y": 1192,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 685,
+   "y": 1192,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 845,
+   "y": 1192,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 1534,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 1967,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 526,
+   "y": 1967,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 685,
+   "y": 1967,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 845,
+   "y": 1967,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 1026,
+   "y": 1967,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 2343,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 2758,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 526,
+   "y": 2758,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 685,
+   "y": 2758,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 845,
+   "y": 2758,
+   "w": 149,
+   "h": 84
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 3100,
+   "w": 628,
+   "h": 251
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 4043,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 4476,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 4919,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 5368,
+   "w": 628,
+   "h": 251
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 5898,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 6251,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 6662,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 7015,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 7285,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 7718,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 8492,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 8824,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 9377,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 9709,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 10023,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 10576,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 10908,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 11178,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 11611,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 12055,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 12504,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 12836,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 13106,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 13539,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 14233,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 14565,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 15260,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 15613,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 15870,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 16319,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 16729,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 17061,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 17331,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 17663,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 17977,
+   "w": 628,
+   "h": 353
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 18410,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 18680,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 19090,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 19636,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 20268,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 20699,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 21073,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 21523,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 21855,
+   "w": 238,
+   "h": 134
+  },
+  {
+   "alt": "",
+   "x": 350,
+   "y": 22015,
+   "w": 660,
+   "h": 371
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 22464,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 366,
+   "y": 22916,
+   "w": 628,
+   "h": 252
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 964,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 1227,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 1491,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 1783,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 2043,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 2319,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1042,
+   "y": 2612,
+   "w": 276,
+   "h": 155
+  },
+  {
+   "alt": "",
+   "x": 1050,
+   "y": 2870,
+   "w": 260,
+   "h": 66
+  },
+  {
+   "alt": "ESPN",
+   "x": 134,
+   "y": 23702,
+   "w": 87,
+   "h": 23
+  }
+ ]
+}
