@@ -33,11 +33,11 @@ export function GalleryBand({ id, kicker, title, lesson, items, desktop, mobile 
 }
 
 export const SAN_DIEGO: GalleryItem[] = [
-  { photo: PHOTOS.contreras, kicker: "Game 1", caption: "William Contreras, whose seventh-inning home run off Adrian Morejon won it 3–2" },
-  { photo: PHOTOS.machado, kicker: "Wild Card", caption: "Manny Machado, a first-inning home run and an RBI double in the 8–0 opener against the Cubs" },
-  { photo: PHOTOS.tatis, kicker: "Wild Card", caption: "Fernando Tatis Jr., who homered in the first inning of Game 1 against Chicago" },
+  { photo: PHOTOS.contreras, kicker: "Games 1 and 3", caption: "William Contreras: the home run that won Game 1, and three hits with another home run in Game 3" },
+  { photo: PHOTOS.chourioWide, kicker: "Games 2 and 3", caption: "Jackson Chourio, the walk-off single on Sunday and the sacrifice fly that tied Game 3" },
+  { photo: PHOTOS.tatis, kicker: "Game 3", caption: "Fernando Tatis Jr., whose third-inning groundout scored the game's first run" },
   { photo: PHOTOS.miller, kicker: "Game 2", caption: "Mason Miller: forty pitches, three walks and the walk-off single in the ninth" },
-  { photo: PHOTOS.yelich, kicker: "Game 2", caption: "Christian Yelich, whose walk began the ninth-inning rally" },
+  { photo: PHOTOS.yelich, kicker: "Game 3", caption: "Christian Yelich, whose seventh-inning single made it 4–3" },
   { photo: PHOTOS.megill, kicker: "Game 1", caption: "Trevor Megill, who retired Jackson Merrill to end it" },
 ];
 

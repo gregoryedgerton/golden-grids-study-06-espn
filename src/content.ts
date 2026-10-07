@@ -39,12 +39,12 @@ export interface Series {
 /** The four Division Series as they stand on the morning of October 7. */
 export const DIVISION: Series[] = [
   {
-    id: "mil-sd", round: "NLDS", high: "MIL", low: "SD", leader: "MIL", summary: "Brewers lead 2–0",
+    id: "mil-sd", round: "NLDS", high: "MIL", low: "SD", leader: "MIL", summary: "Brewers lead 2–1",
     games: [
       { n: 1, date: "Oct 3", away: "SD", home: "MIL", awayScore: 2, homeScore: 3, venue: "American Family Field", status: "final" },
       { n: 2, date: "Oct 4", away: "SD", home: "MIL", awayScore: 3, homeScore: 4, venue: "American Family Field", status: "final" },
-      { n: 3, date: "Oct 6", away: "MIL", home: "SD", venue: "Petco Park", time: "9:30 p.m. ET", tv: "FS1", status: "live" },
-      { n: 4, date: "Oct 7", away: "MIL", home: "SD", venue: "Petco Park", time: "10 p.m. ET", tv: "FS1", status: "if" },
+      { n: 3, date: "Oct 6", away: "MIL", home: "SD", awayScore: 3, homeScore: 4, venue: "Petco Park", status: "final" },
+      { n: 4, date: "Oct 7", away: "MIL", home: "SD", venue: "Petco Park", time: "10 p.m. ET", tv: "FS1", status: "next" },
       { n: 5, date: "Oct 9", away: "SD", home: "MIL", venue: "American Family Field", status: "if" },
     ],
   },
@@ -154,6 +154,14 @@ export const VIDEOS: Video[] = [
 export interface Story { id: string; kicker: string; head: string; short: string; dek: string; body: string[] }
 export const HEADLINES: Story[] = [
   {
+    id: "padres-alive", kicker: "NLDS Game 3", short: "Padres\n4–3", head: "Padres beat Brewers 4–3 to force Game 4; King saves it in relief",
+    dek: "Cronenworth homered, Machado and Tatis drove in runs in the third, and Milwaukee's eleven hits produced three runs.",
+    body: [
+      "San Diego scored twice in the third inning off Dustin May, on Fernando Tatis Jr.'s groundout and Manny Machado's single, and led the rest of the way. William Contreras's fourth-inning home run and Jackson Chourio's fifth-inning sacrifice fly tied it, 2–2; Jake Cronenworth's home run off JoJo Romero in the bottom of the fifth put the Padres back ahead, and a throwing error by Cooper Pratt let Xander Bogaerts score in the sixth. Christian Yelich's seventh-inning single made it 4–3.",
+      "Nick Pivetta went four and a third innings for San Diego; Yuki Matsui was credited with the win, Bradgley Rodriguez with a hold, and Michael King — the Game 2 starter — pitched the eighth and ninth for the save, allowing one hit. Contreras had three hits for Milwaukee, which stranded the tying run. Game 4 is Wednesday at 10 p.m. ET at Petco Park.",
+    ],
+  },
+  {
     id: "yamamoto", kicker: "NLDS Game 3", short: "Yamamoto:\n10 K", head: "Yamamoto strikes out ten as Dodgers take 2–1 lead in Atlanta",
     dek: "Seven innings, four hits, one run; Edwin Díaz closed the 3–1 win at Truist Park.",
     body: [
@@ -179,15 +187,6 @@ export const HEADLINES: Story[] = [
     ],
   },
   {
-    id: "yankees-errors", kicker: "ALDS Game 2", short: "Four errors", head: "Four Yankees errors in a 5–2 loss; Ben Rice homers twice",
-    dek: "New York goes home down 0–2 for Game 3 at Yankee Stadium on Wednesday night.",
-    body: [
-      "The Yankees committed three errors in the first inning of Game 2 on Monday, and a fourth later, in a 5–2 loss at Tropicana Field. A Ryan McMahon error and a Jazz Chisholm Jr. throw let Yandy Díaz score the game's first run; Ben Rice tied it with a solo home run in the fourth, and hit a second in the eighth.",
-      "Tampa Bay scored four in the fifth, chasing Cam Schlittler after four and a third innings in which he allowed seven hits and four runs, two of them earned. Richie Palacios's two-run single made it 5–1. Cam Booser was credited with the win on eight pitches and Bryan Baker saved his second game of the series.",
-      "Game 3 is Wednesday at 8 p.m. ET at Yankee Stadium. The Rays won the only previous postseason meeting between the clubs, the 2020 ALDS, in five games.",
-    ],
-  },
-  {
     id: "braves-elimination", kicker: "NLDS Game 4", short: "Braves\nmust win", head: "Braves face elimination at home after Sale is outpitched",
     dek: "Atlanta is 1–3 at home against Los Angeles in the postseason since 2018.",
     body: [
@@ -196,11 +195,12 @@ export const HEADLINES: Story[] = [
     ],
   },
   {
-    id: "dodgers-streak", kicker: "Division Series", short: "14", head: "Dodgers, in a 14th straight postseason, chase a third consecutive title",
-    dek: "The streak ties the Braves' record run of 1991–2005.",
+    id: "yankees-errors", kicker: "ALDS Game 2", short: "0–2", head: "Four Yankees errors in a 5–2 loss; Ben Rice homers twice",
+    dek: "New York goes home down 0–2 for Game 3 at Yankee Stadium on Wednesday night.",
     body: [
-      "Los Angeles clinched its fourteenth consecutive postseason berth on September 14, tying the record set by Atlanta from 1991 to 2005 (no postseason was played in 1994). The Dodgers won a fifth straight NL West title and their thirteenth in fourteen years, finished 100–62, and took the second seed and a first-round bye.",
-      "Their Game 1 win over the Braves on Saturday was played in 100°F heat at Dodger Stadium, the second-hottest postseason game on record after Game 1 of the 2017 World Series. Teoscar Hernández and Kyle Tucker hit two-run home runs and Max Muncy a solo shot, his seventeenth postseason home run, extending his franchise record.",
+      "The Yankees committed three errors in the first inning of Game 2 on Monday, and a fourth later, in a 5–2 loss at Tropicana Field. A Ryan McMahon error and a Jazz Chisholm Jr. throw let Yandy Díaz score the game's first run; Ben Rice tied it with a solo home run in the fourth, and hit a second in the eighth.",
+      "Tampa Bay scored four in the fifth, chasing Cam Schlittler after four and a third innings in which he allowed seven hits and four runs, two of them earned. Richie Palacios's two-run single made it 5–1. Cam Booser was credited with the win on eight pitches and Bryan Baker saved his second game of the series.",
+      "Game 3 is Wednesday at 8 p.m. ET at Yankee Stadium. The Rays won the only previous postseason meeting between the clubs, the 2020 ALDS, in five games.",
     ],
   },
 ];
@@ -211,13 +211,13 @@ export interface Fact { label: string; line: string; fitClass?: string; body?: s
 /** The lead: Brewers at Padres, Game 3, as it stands. */
 export const LEAD: { kicker: string; head: string; dek: string; facts: Fact[] } = {
   kicker: "NLDS Game 3 · Petco Park",
-  head: "Brewers at Padres, Game 3",
-  dek: "Milwaukee, 2–0 up after two one-run wins at home, sent Dustin May to the mound against Nick Pivetta in San Diego on Tuesday night.",
+  head: "Padres stay alive, 4–3; King closes it two days after starting Game 2",
+  dek: "San Diego led 2–0, 3–2 and 4–2 and held on against eleven Milwaukee hits. Michael King pitched the eighth and ninth for the save in front of 47,708. Game 4 is Wednesday at 10 p.m. ET; the Brewers still lead the series 2–1.",
   facts: [
     { label: "Miller, Game 2 ninth", line: "40", fitClass: "fit--num", body: "Mason Miller struck out two in the eighth and retired the first batter of the ninth, then walked Yelich, Frelick and Sánchez — his first career postseason walks — before Jackson Chourio's two-run single ended it, 4–3. Forty pitches was his most since 2023." },
     { label: "Game 1, ninth inning", line: "105 mph\n49°", fitClass: "fit--num", body: "Ty France's fly ball with the Padres down a run struck the roof of American Family Field and came down to Jackson Chourio for an out. Batted balls at that exit velocity and launch angle have never been home runs; the Brewers won 3–2 on William Contreras's seventh-inning home run." },
     { label: "First meeting", line: "1969", fitClass: "fit--num", body: "The Brewers and Padres both entered the National League in the 1969 expansion, and neither has won a World Series. This is their first postseason series. San Diego won the season series 4–2." },
-    { label: "Game 3 starters", line: "May\nvs. Pivetta", fitClass: "fit--num", body: "Dustin May for Milwaukee, Nick Pivetta for San Diego. Pivetta pitched three and a third innings of one-run ball in the Wild Card clincher against the Cubs." },
+    { label: "King, Game 3", line: "2 IP\nsave", fitClass: "fit--num", body: "Michael King, Sunday's Game 2 starter, pitched the eighth and ninth: one hit, two walks, no runs.", long: "Yuki Matsui was the winning pitcher; JoJo Romero, who allowed Jake Cronenworth's fifth-inning home run, took the loss." },
   ],
 };
 
@@ -279,12 +279,12 @@ export const NUMBERS: Fact[] = [
 ];
 
 export const TRENDING = [
-  "Brewers–Padres Game 3 at Petco Park",
+  "Padres force Game 4 behind King's two-inning save",
   "Yamamoto's ten strikeouts in Atlanta",
   "Rasmussen's near no-hitter",
   "Rays–Yankees Game 3, Wednesday 8 p.m. ET",
   "White Sox go home up 2–0",
-  "Mason Miller's 40-pitch ninth",
+  "Cronenworth's go-ahead home run",
 ];
 
 export const NETWORK = {

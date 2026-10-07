@@ -30,7 +30,7 @@ export function HeadlinesBand() {
         </div>
       ) : (
         <GoldenGrid from={1} to={6} placement="left" clockwise={false}>
-          {HEADLINES.map((h, i) => <GoldenBox key={h.id} {...x.boxProps(h.id)}><Headline h={h} x={x} short={i > 3} /></GoldenBox>)}
+          {HEADLINES.map((h, i) => <GoldenBox key={h.id} {...x.boxProps(h.id)}><Headline h={h} x={x} short={i > (viewport === "tablet" ? 2 : 3)} /></GoldenBox>)}
         </GoldenGrid>
       )}
     </Band>

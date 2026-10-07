@@ -77,7 +77,7 @@ export function ScheduleList() {
         ))}
         <li>
           <p className="list__head"><time>If needed</time> <strong>Game 4s Thursday, Game 5s Friday and Saturday</strong></p>
-          <p className="list__sub">Brewers–Padres Game 4 at Petco Park Wednesday at 10 p.m. ET if the Padres won Tuesday; Rays–Yankees and Guardians–White Sox Game 4s Thursday; Game 5s at the higher seed, October 9 in the National League and October 10 in the American.</p>
+          <p className="list__sub">Rays–Yankees and Guardians–White Sox Game 4s Thursday; Game 5s at the higher seed, October 9 in the National League and October 10 in the American.</p>
         </li>
         <li>
           <p className="list__head"><time>Oct. 11–12</time> <strong>League Championship Series</strong> <span className="list__k">Best of seven</span></p>

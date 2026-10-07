@@ -24,7 +24,7 @@ export function App() {
       <LeadBand />
       <HeadlinesBand />
       <PlusBanner />
-      <GalleryBand id="san-diego" kicker="NLDS" title="Brewers–Padres: who decided the first two games" lesson="Two one-run games at American Family Field. Milwaukee's winning runs came on a seventh-inning home run on Saturday and a two-out, bases-loaded single on Sunday; San Diego led in both games." items={SAN_DIEGO} desktop={["right", true]} mobile={["top", true]} />
+      <GalleryBand id="san-diego" kicker="NLDS" title="Brewers–Padres: three one-run games" lesson="Milwaukee won the first two at American Family Field on a seventh-inning home run and a two-out, bases-loaded single in the ninth; San Diego won the third at Petco Park on Jake Cronenworth's home run and Michael King's two innings of relief." items={SAN_DIEGO} desktop={["right", true]} mobile={["top", true]} />
       <SeriesBand id="lad-atl" />
       <GalleryBand id="atlanta" kicker="NLDS Game 4" title="Dodgers–Braves: Wednesday at Truist Park" lesson="Atlanta won two of the five previous postseason series between the clubs, in 1996 and 2021, and took the season series 5–1. The Dodgers have won the three meetings in between, in 2013, 2018 and 2020." items={ATLANTA} desktop={["left", false]} mobile={["bottom", false]} />
       <SeriesBand id="tb-nyy" />

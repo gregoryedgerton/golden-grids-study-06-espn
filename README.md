@@ -49,9 +49,9 @@ grids. Breakpoints live in [`src/lib/viewport.ts`](src/lib/viewport.ts).
 
 | Band | Range · placement · clockwise | Measured | What it holds |
 | --- | --- | --- | --- |
-| Lead | 1–6 · left · cw (top at 390) | 332×540 / 762×469 / 1246×767 | Brewers at Padres, Game 3: Chourio, Petco Park, the May–Pivetta matchup, the roof ball, 1969, Miller's forty pitches |
+| Lead | 1–6 · left · cw (top at 390) | 332×540 / 762×469 / 1246×767 | Padres 4, Brewers 3: Machado, Petco Park, King's save, the roof ball, 1969, Miller's forty pitches |
 | Top headlines | 1–6 · left · ccw (two 1–3 grids, top / bottom, at 390) | 2×(332×221) / 762×469 / 1246×767 | Six headlines fitted to their squares, the two smallest in short form; More opens each story |
-| Brewers–Padres, people | 1–6 · right · cw (top at 390) | 332×540 / 762×469 / 1246×767 | Contreras, Machado, Tatis, Miller, Yelich, Megill |
+| Brewers–Padres, people | 1–6 · right · cw (top at 390) | 332×540 / 762×469 / 1246×767 | Contreras, Chourio, Tatis, Miller, Yelich, Megill |
 | Dodgers 2, Braves 1 | 1–6 · right · cw (bottom at 390) | 332×540 / 762×469 / 1246×767 | Yamamoto, Harris, Muncy; the three scores |
 | Dodgers–Braves, Game 4 | 1–6 · left · ccw (bottom at 390) | 332×540 / 762×469 / 1246×767 | Truist Park, Acuña, Olson, Freeman, Hernández, Albies |
 | Rays 2, Yankees 0 | 1–5 · top · cw (right at 390) | 332×531 / 762×476 / 1246×779 | Rasmussen, Aranda, 1–0, Rice, 5–2 |
@@ -66,7 +66,7 @@ All eight placement × direction orientations appear across the widths.
 
 The 2026 postseason as it stood on the morning of October 7: the Wild Card
 round complete (three sweeps; Braves over Phillies in three), and the four
-Division Series at 2–0, 2–0, 2–0 and 2–1, with Brewers–Padres Game 3 played
+Division Series at 2–0, 2–0, 2–1 and 2–1 after the Padres' 4–3 win in Game 3
 on the night of the 6th. Scores, dates, venues, pitching lines and the
 facts in the squares were checked against MLB's and ESPN's published box
 scores and the Wikipedia articles on the [2026 postseason](https://en.wikipedia.org/wiki/2026_Major_League_Baseball_postseason),
