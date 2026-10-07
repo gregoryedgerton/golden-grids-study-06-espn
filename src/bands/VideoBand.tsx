@@ -27,7 +27,7 @@ export function VideoBand() {
           </GoldenBox>
         ))}
         <GoldenBox>
-          <Fact label="GSPN+" fitClass="fit--word" max={120} tone="ink" body={<p className="box__body--short">Every out-of-market Division Series game, live and on demand. Wednesday's four are on TBS and FS1.</p>}>Watch</Fact>
+          <Fact label="GIFcommit+" fitClass="fit--word" max={120} tone="ink" body={<p className="box__body--short">Every out-of-market Division Series game, live and on demand. Wednesday's four are on TBS and FS1.</p>}>Watch</Fact>
         </GoldenBox>
       </GoldenGrid>
     </Band>

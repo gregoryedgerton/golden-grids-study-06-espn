@@ -4,12 +4,12 @@ Guidance for agents working in a Golden Grids layout study.
 
 ## What this repo is
 
-Study 06: the espn.com front page rebuilt as GSPN, a fictional sports
+Study 06: the espn.com front page rebuilt as GIFcommit, a fictional sports
 network, on the morning of October 7, 2026 — the fifth day of the 2026 MLB
 Division Series. One page (`index.html`). `src/content.ts` holds every
 fact, score, headline and photograph record; `src/lib/Page.tsx` is the shell
 (global bar, scoreboard strip, footer credits); `src/bands/` the grids;
-`src/lib/modules.tsx` the flat modules (GSPN+ banner, promotions, schedule,
+`src/lib/modules.tsx` the flat modules (GIFcommit+ banner, promotions, schedule,
 bracket, trending); `src/lib/cards.tsx` what goes inside a square. Read
 `docs/program/PROGRAM.md`, then `STUDY-BRIEF.md`, then `README.md` here.
 
@@ -144,7 +144,7 @@ README: the smallest line, and that no screen-reader user has tested it.
   that cannot be checked the same way, and do not update the page to a
   later date without changing the dateline, the scoreboard, the lead and
   the headlines together.
-- The network is fictional. GSPN, GSPN+, its price, the fantasy game, the
+- The network is fictional. GIFcommit, GIFcommit+, its price, the fantasy game, the
   app and the newsletter are invented and say so in the footer; the buttons
   do nothing and the form sends nothing. Real broadcasters (TBS, FS1) are
   named as data in the schedule, nothing more.

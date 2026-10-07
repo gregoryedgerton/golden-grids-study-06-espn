@@ -1,4 +1,4 @@
-/* Study 06 — GSPN, after espn.com's front page. The register is the
+/* Study 06 — GIFcommit, after espn.com's front page. The register is the
    reference's, from measurement (captures/tokens.json): white cards with a
    10px radius on a cool grey ground, body text in the system face at
    #48494a with #6c6d6f for the secondary line, a condensed display face for
@@ -64,7 +64,7 @@ html[data-fonts-pending] .fit, html[data-fonts-pending] .wordmark__mark, html[da
 .global { background: var(--bar); color: var(--bar-fg); }
 .global__bar { width: min(100% - 24px, 1280px); margin-inline: auto; min-height: 48px; display: flex; align-items: center; gap: 16px; padding-right: 72px; }
 .wordmark { color: inherit; text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
-.wordmark__mark { font: 800 30px/1 var(--display); letter-spacing: -0.02em; font-style: italic; color: #fff; padding: 2px 8px 2px 6px; background: var(--red-ground); transform: skewX(-8deg); }
+.wordmark__mark { font: 800 26px/1 var(--display); letter-spacing: -0.02em; font-style: italic; color: #fff; padding: 2px 8px 2px 6px; background: var(--red-ground); transform: skewX(-8deg); }
 .global__nav { flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
 .global__nav::-webkit-scrollbar { display: none; }
 .global__nav ul { margin: 0; padding: 0; list-style: none; display: flex; gap: 2px; }
@@ -91,7 +91,7 @@ html[data-fonts-pending] .fit, html[data-fonts-pending] .wordmark__mark, html[da
 /* --- Page ------------------------------------------------------------------ */
 main { width: min(100% - 24px, 1280px); margin-inline: auto; }
 .dateline { margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font: 400 14px/1.4 var(--font); color: var(--muted); }
-.dateline__net { font: 800 22px/1 var(--display); color: var(--red); letter-spacing: 0.02em; text-transform: uppercase; }
+.dateline__net { font: 800 22px/1 var(--display); color: var(--red); letter-spacing: 0.02em; }
 .dateline__date { color: var(--ink); font-weight: 600; }
 .band, .list-band, .promo, .promos { margin-top: 12px; }
 .band, .list-band, .promo--plus, .promo--card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px 16px; }

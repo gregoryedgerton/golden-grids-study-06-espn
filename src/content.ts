@@ -1,5 +1,5 @@
 /**
- * GSPN — a fictional sports network's front page on the morning of
+ * GIFcommit — a fictional sports network's front page on the morning of
  * Wednesday, October 7, 2026, the fifth day of the Division Series.
  *
  * Everything stated about the games is from the public record: box scores
@@ -288,10 +288,10 @@ export const TRENDING = [
 ];
 
 export const NETWORK = {
-  name: "GSPN",
-  tagline: "The worldwide leader in nothing in particular: a fictional network built for a layout study.",
-  plus: { name: "GSPN+", price: "$11.99", period: "a month", pitch: "Every out-of-market Division Series game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
-  fantasy: { name: "GSPN Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
+  name: "GIFcommit",
+  tagline: "A fictional network built for a layout study.",
+  plus: { name: "GIFcommit+", price: "$11.99", period: "a month", pitch: "Every out-of-market Division Series game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
+  fantasy: { name: "GIFcommit Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
   app: { pitch: "Scores in the notification shade, the scoreboard in a widget, and alerts when a game is in its final inning.", cta: "Get the app" },
   newsletter: { pitch: "One email a morning through the end of the World Series: last night's scores, today's starters, the one fact worth repeating.", cta: "Sign up" },
 };
