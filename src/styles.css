@@ -220,3 +220,11 @@ main { width: min(100% - 24px, 1280px); margin-inline: auto; }
 .credits summary { cursor: pointer; font-weight: 600; color: var(--ink); min-height: 24px; }
 .credits ul { margin: 6px 0 0; padding-left: 1.2em; columns: 2 320px; gap: 24px; }
 .credits li { break-inside: avoid; margin-bottom: 4px; }
+
+/* The outlined pill: link blue, thin border, fills on hover. It drives the expanded cell's Close. */
+:root {
+  --cta2-font: 700 14px/1 var(--font); --cta2-ls: 0.02em; --cta2-pad: 0 20px; --cta2-min-h: 40px;
+  --cta2-color: var(--link); --cta2-bg: transparent; --cta2-border: 1px solid var(--link); --cta2-radius: 999px;
+  --cta2-hover-bg: var(--link); --cta2-hover-color: #fff;
+}
+@media (prefers-color-scheme: dark) { :root { --cta2-hover-color: #0b0b0c; } }
