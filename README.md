@@ -33,12 +33,9 @@ blue links, a red live dot, condensed display type for scores.
 | 820px | ![](captures/reference-820.png) | ![](captures/study-index-820.png) |
 | 1440px | ![](captures/reference-1440.png) | ![](captures/study-index-1440.png) |
 
-## The claim
+## Approach
 
-A sports front page is a ranking — one lead, a few second stories, a strip
-of smaller items — and a golden grid is a ranking with sizes attached, so
-each story card becomes one grid: the person who decided the game in the
-largest square, the score in the smallest, with the type set to fit.
+The reference's front page has one lead story, a few second stories and a strip of smaller items, with a scoreboard above and promotions, video, a schedule and a bracket around them. The study sets each story card as one grid, with a photograph in the largest square and a score or figure in the smallest, and keeps the flat modules as lists.
 
 ## The page
 
@@ -111,20 +108,21 @@ labelled an archive and says what each clip is.
   smallest fitted line is the 36px square at 820 ("14"). No screen-reader
   user has tested it.
 
-## What did not
+## Notes for review
 
-- The 1440 reference capture is partly obscured by a loading overlay; the
-  inventory was taken from the DOM (`captures/reference-1440.json`) and the
-  390 and 820 captures.
-- A 120px cap on the fitted line leaves the hero square of a six-grid
-  mostly ground at 1440 (the "103" and "14" squares); the long body copy
-  fills some of it, not all.
-- The free-licence photographs are what Commons has, not what a desk would
-  pick: no White Sox player is pictured, and the two Guardians are shown in
-  2022–23 uniforms.
-- ESPN's left rail (Watch, Quick Links, Fantasy, Sites, Apps) is not
-  rebuilt; its matter is in the global bar, the GIFcommit+ banner and the
-  promotions.
+Observations for whoever reviews this study, recorded without a verdict. Whether the layout suits the page is assessed separately, after every study has been reviewed.
+
+- **Reference capture.** The 1440 capture is partly covered by a loading overlay; the inventory was taken from the page's structure and from the 390 and 820 captures.
+- **Fitted type.** The fitted line is capped at 120px, so a number alone in the largest square of a six-square grid leaves room around it at 1440.
+- **Photographs.** They are what Wikimedia Commons has: no White Sox player is pictured, and the two Guardians appear in 2022–23 uniforms.
+- **Left rail.** The reference's rail (Watch, Quick Links, Fantasy, Sites, Apps) is not rebuilt; its contents are in the top bar and the promotions.
+
+## Disclosure
+
+Every page says what it is in three places, all read from
+[`src/study.json`](src/study.json): its title and description, a sticky notice
+at the top, and a disclosure at the very end listing the pages reviewed, what
+is real, what is invented or changed, and where each kind of asset came from.
 
 ## Study tools
 
