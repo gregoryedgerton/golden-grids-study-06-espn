@@ -5,7 +5,7 @@ Guidance for agents working in a Golden Grids layout study.
 ## What this repo is
 
 Study 06: the espn.com front page rebuilt as GIFcommit, a fictional sports
-network, on the morning of October 7, 2026 — the fifth day of the 2026 MLB
+network, on the morning of October 9, 2026 — the seventh day of the 2026 MLB
 Division Series. One page (`index.html`). `src/content.ts` holds every
 fact, score, headline and photograph record; `src/lib/Page.tsx` is the shell
 (global bar, scoreboard strip, footer credits); `src/bands/` the grids;
@@ -146,7 +146,7 @@ README: the smallest line, and that no screen-reader user has tested it.
 ## This study's own rules
 
 - The content is REAL and dated: the 2026 postseason as it stood on the
-  morning of October 7, 2026, and nothing after. Every score, date, venue,
+  morning of October 9, 2026, and nothing after. Every score, date, venue,
   pitching line and fact in `src/content.ts` was checked against MLB's and
   ESPN's box scores and the Wikipedia series articles; do not add a claim
   that cannot be checked the same way, and do not update the page to a

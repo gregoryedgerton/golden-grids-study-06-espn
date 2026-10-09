@@ -6,7 +6,7 @@ An unaffiliated layout study. It rebuilds the structure of the espn.com
 front page — a scoreboard strip, a lead story card, a headline list, story
 cards with strips of people under them, video, promotions, the schedule, the
 bracket and a trending list — as stacked golden grids, for a fictional
-network called GIFcommit, on the morning of Wednesday, October 7, 2026, the fifth
+network called GIFcommit, on the morning of Friday, October 9, 2026, the seventh
 day of the 2026 MLB Division Series. The games, scores, records and the
 people who decided them are the public record; the copy is the study's own;
 the network, its products and its prices are invented, and the forms send
@@ -64,10 +64,11 @@ All eight placement × direction orientations appear across the widths.
 
 ## The subject
 
-The 2026 postseason as it stood on the morning of October 7: the Wild Card
-round complete (three sweeps; Braves over Phillies in three), and the four
-Division Series at 2–0, 2–0, 2–1 and 2–1 after the Padres' 4–3 win in Game 3
-on the night of the 6th. Scores, dates, venues, pitching lines and the
+The 2026 postseason as it stood on the morning of October 9: the Wild Card
+round complete, three Division Series decided (Brewers over Padres and
+Dodgers over Braves in four, Rays over Yankees in three) and Guardians–White
+Sox tied 2–2 after Cleveland's 9–5 win on the night of the 8th. The page was
+first set to October 7 and was brought forward on October 8. Scores, dates, venues, pitching lines and the
 facts in the squares were checked against MLB's and ESPN's published box
 scores and the Wikipedia articles on the [2026 postseason](https://en.wikipedia.org/wiki/2026_Major_League_Baseball_postseason),
 [ALDS](https://en.wikipedia.org/wiki/2026_American_League_Division_Series),

@@ -34,18 +34,18 @@ export function GalleryBand({ id, kicker, title, lesson, items, desktop, mobile 
 
 export const SAN_DIEGO: GalleryItem[] = [
   { photo: PHOTOS.contreras, kicker: "Games 1 and 3", caption: "William Contreras: the home run that won Game 1, and three hits with another home run in Game 3" },
-  { photo: PHOTOS.chourioWide, kicker: "Games 2 and 3", caption: "Jackson Chourio, the walk-off single on Sunday and the sacrifice fly that tied Game 3" },
-  { photo: PHOTOS.tatis, kicker: "Game 3", caption: "Fernando Tatis Jr., whose third-inning groundout scored the game's first run" },
-  { photo: PHOTOS.miller, kicker: "Game 2", caption: "Mason Miller: forty pitches, three walks and the walk-off single in the ninth" },
+  { photo: PHOTOS.chourioWide, kicker: "Games 2 and 4", caption: "Jackson Chourio, the walk-off single on Sunday and the go-ahead single on Wednesday" },
+  { photo: PHOTOS.tatis, kicker: "Game 4", caption: "Fernando Tatis Jr., whose 429-foot home run was San Diego's only run" },
+  { photo: PHOTOS.miller, kicker: "Game 4", caption: "Mason Miller, back after missing Game 3, put three men on in the seventh and stranded them" },
   { photo: PHOTOS.yelich, kicker: "Game 3", caption: "Christian Yelich, whose seventh-inning single made it 4–3" },
-  { photo: PHOTOS.megill, kicker: "Game 1", caption: "Trevor Megill, who retired Jackson Merrill to end it" },
+  { photo: PHOTOS.megill, kicker: "Game 4", caption: "Trevor Megill, who struck out two in the ninth for his second save of the series" },
 ];
 
 export const ATLANTA: GalleryItem[] = [
-  { photo: PHOTOS.truist, kicker: "Game 4", caption: "Truist Park, Wednesday, 6 p.m. ET: Atlanta's season or a fifth game in Los Angeles" },
+  { photo: PHOTOS.truist, kicker: "Game 4", caption: "Truist Park, where 41,173 saw the Braves' season end" },
   { photo: PHOTOS.acuna, kicker: "Braves", caption: "Ronald Acuña Jr., who walked, stole second and third and scored in Game 2 of the Wild Card round" },
   { photo: PHOTOS.olson, kicker: "Braves", caption: "Matt Olson, a home run in the Wild Card clincher and the run Harris doubled home in Game 2" },
   { photo: PHOTOS.freeman, kicker: "Dodgers", caption: "Freddie Freeman, once of Atlanta, whose fourth-inning home run tied Game 2" },
-  { photo: PHOTOS.teoscar, kicker: "Dodgers", caption: "Teoscar Hernández, a two-run home run in the fourth inning of Game 1" },
-  { photo: PHOTOS.albies, kicker: "Braves", caption: "Ozzie Albies, a two-run home run in the ninth inning of Game 1" },
+  { photo: PHOTOS.teoscar, kicker: "Dodgers", caption: "Teoscar Hernández, who singled in the seventh and scored the go-ahead run on Pages's hit" },
+  { photo: PHOTOS.albies, kicker: "Braves", caption: "Ozzie Albies, whose leadoff double in the sixth of Game 4 was stranded at second" },
 ];

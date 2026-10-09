@@ -21,10 +21,10 @@ export function LeadBand() {
     <Band id="lead" kicker={LEAD.kicker} title={LEAD.head} lesson={LEAD.dek} note={`from=1 to=6 · placement="${placement}" · clockwise=${cw}`}>
       <GoldenGrid from={1} to={6} placement={placement} clockwise={cw}>
         <GoldenBox {...x.boxProps("hero")}>
-          <PhotoCard photo={PHOTOS.machado} x={x} slotKey="hero" kicker="Game 3" caption="Manny Machado, whose third-inning single scored Jackson Merrill for a 2–0 lead the Padres never gave back" />
+          <PhotoCard photo={PHOTOS.machado} x={x} slotKey="hero" kicker="Game 4" caption="Manny Machado, whose 406-foot drive in the eighth was caught at the wall with the Padres two runs down" />
         </GoldenBox>
         <GoldenBox {...x.boxProps("park")}>
-          <PhotoCard photo={PHOTOS.petco} x={x} slotKey="park" kicker="Game 3" caption="Petco Park: 47,708, and Game 4 on Wednesday night" />
+          <PhotoCard photo={PHOTOS.petco} x={x} slotKey="park" kicker="Game 4" caption="Petco Park: 47,712 for the last game of San Diego's season" />
         </GoldenBox>
         <GoldenBox {...x.boxProps("f3")}><FactCard fact={facts[3]} /></GoldenBox>
         <GoldenBox {...x.boxProps("f1")}><FactCard fact={facts[1]} /></GoldenBox>

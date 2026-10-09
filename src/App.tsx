@@ -24,9 +24,9 @@ export function App() {
       <LeadBand />
       <HeadlinesBand />
       <PlusBanner />
-      <GalleryBand id="san-diego" kicker="NLDS" title="Brewers–Padres: three one-run games" lesson="Milwaukee won the first two at American Family Field on a seventh-inning home run and a two-out, bases-loaded single in the ninth; San Diego won the third at Petco Park on Jake Cronenworth's home run and Michael King's two innings of relief." items={SAN_DIEGO} desktop={["right", true]} mobile={["top", true]} />
+      <GalleryBand id="san-diego" kicker="NLDS" title="Brewers–Padres: four games, five runs between them" lesson="Milwaukee won the first two at American Family Field on a seventh-inning home run and a two-out, bases-loaded single in the ninth; San Diego won the third at Petco Park, 4–3; and the Brewers closed it there on Wednesday, 3–1." items={SAN_DIEGO} desktop={["right", true]} mobile={["top", true]} />
       <SeriesBand id="lad-atl" />
-      <GalleryBand id="atlanta" kicker="NLDS Game 4" title="Dodgers–Braves: Wednesday at Truist Park" lesson="Atlanta won two of the five previous postseason series between the clubs, in 1996 and 2021, and took the season series 5–1. The Dodgers have won the three meetings in between, in 2013, 2018 and 2020." items={ATLANTA} desktop={["left", false]} mobile={["bottom", false]} />
+      <GalleryBand id="atlanta" kicker="NLDS Game 4" title="Dodgers–Braves: it ended at Truist Park" lesson="Atlanta won two of the five previous postseason series between the clubs, in 1996 and 2021, and took the season series 5–1. The Dodgers have now won the other four, in 2013, 2018, 2020 and 2026." items={ATLANTA} desktop={["left", false]} mobile={["bottom", false]} />
       <SeriesBand id="tb-nyy" />
       <SeriesBand id="cle-cws" />
       <VideoBand />

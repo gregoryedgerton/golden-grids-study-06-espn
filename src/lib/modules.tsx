@@ -60,28 +60,26 @@ export function Promos() {
   );
 }
 
-/** Wednesday's games, then the dates that follow. */
+/** The games still to come: the one Division Series left, then the two League Championship Series. */
 export function ScheduleList() {
-  const today = DIVISION.flatMap((s) => s.games.filter((g) => g.status === "next").map((g) => ({ s, g }))).sort((a, b) => (a.g.time ?? "").localeCompare(b.g.time ?? ""));
-  const order = ["4 p.m. ET", "6 p.m. ET", "8 p.m. ET", "10 p.m. ET"];
-  today.sort((a, b) => order.indexOf(a.g.time ?? "") - order.indexOf(b.g.time ?? ""));
+  const next = DIVISION.flatMap((s) => s.games.filter((g) => g.status === "next").map((g) => ({ s, g })));
   return (
     <section className="list-band" id="schedule" aria-labelledby="schedule-title">
-      <h2 id="schedule-title" className="band__title"><span className="band__kicker">Schedule </span>Wednesday, October 7</h2>
+      <h2 id="schedule-title" className="band__title"><span className="band__kicker">Schedule </span>What is left</h2>
       <ul className="list">
-        {today.map(({ s, g }) => (
+        {next.map(({ s, g }) => (
           <li key={s.id}>
-            <p className="list__head"><time>{g.time}</time> <strong>{TEAMS[g.away].name} at {TEAMS[g.home].name}</strong> <span className="list__k">{s.round} Game {g.n}</span></p>
-            <p className="list__sub">{g.venue} · {g.tv} · {s.summary}{s.leader && s.leader === g.away ? `; ${TEAMS[g.away].name} can advance` : s.leader && s.leader === g.home ? `; ${TEAMS[g.home].name} can advance` : ""}</p>
+            <p className="list__head"><time>Sat., {g.time}</time> <strong>{TEAMS[g.away].name} at {TEAMS[g.home].name}</strong> <span className="list__k">{s.round} Game {g.n}</span></p>
+            <p className="list__sub">{g.venue} · {g.tv} · {s.summary}; the winner goes to Tampa Bay.</p>
           </li>
         ))}
         <li>
-          <p className="list__head"><time>If needed</time> <strong>Game 4s Thursday, Game 5s Friday and Saturday</strong></p>
-          <p className="list__sub">Rays–Yankees and Guardians–White Sox Game 4s Thursday; Game 5s at the higher seed, October 9 in the National League and October 10 in the American.</p>
+          <p className="list__head"><time>Sun., 8 p.m. ET</time> <strong>Dodgers at Brewers</strong> <span className="list__k">NLCS Game 1</span></p>
+          <p className="list__sub">American Family Field · Fox, FS1 · Game 2 is Monday at 5 p.m. ET.</p>
         </li>
         <li>
-          <p className="list__head"><time>Oct. 11–12</time> <strong>League Championship Series</strong> <span className="list__k">Best of seven</span></p>
-          <p className="list__sub">The NLCS opens Sunday the 11th, the ALCS Monday the 12th.</p>
+          <p className="list__head"><time>Mon., 8 p.m. ET</time> <strong>Guardians or White Sox at Rays</strong> <span className="list__k">ALCS Game 1</span></p>
+          <p className="list__sub">Tropicana Field · TBS · Game 2 is Tuesday at 8 p.m. ET.</p>
         </li>
         <li>
           <p className="list__head"><time>Oct. 23</time> <strong>World Series, Game 1</strong></p>

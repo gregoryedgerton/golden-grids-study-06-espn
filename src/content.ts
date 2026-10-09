@@ -1,6 +1,7 @@
 /**
  * GIFcommit — a fictional sports network's front page on the morning of
- * Wednesday, October 7, 2026, the fifth day of the Division Series.
+ * Friday, October 9, 2026: three Division Series decided, one going to a
+ * fifth game.
  *
  * Everything stated about the games is from the public record: box scores
  * and series summaries as reported by MLB, ESPN's scoreboard data and the
@@ -10,7 +11,7 @@
  * the licences require, and `captures/commons.tsv` the full record.
  */
 
-export const DATELINE = "Wednesday, October 7, 2026";
+export const DATELINE = "Friday, October 9, 2026";
 
 export interface Team { abbr: string; name: string; city: string; seed: number; record: string }
 export const TEAMS: Record<string, Team> = {
@@ -36,46 +37,42 @@ export interface Series {
   id: string; round: "ALDS" | "NLDS" | "ALWC" | "NLWC"; high: string; low: string; leader?: string; summary: string; games: Game[];
 }
 
-/** The four Division Series as they stand on the morning of October 7. */
+/** The four Division Series as they stand on the morning of October 9. */
 export const DIVISION: Series[] = [
   {
-    id: "mil-sd", round: "NLDS", high: "MIL", low: "SD", leader: "MIL", summary: "Brewers lead 2–1",
+    id: "mil-sd", round: "NLDS", high: "MIL", low: "SD", leader: "MIL", summary: "Brewers win 3–1",
     games: [
       { n: 1, date: "Oct 3", away: "SD", home: "MIL", awayScore: 2, homeScore: 3, venue: "American Family Field", status: "final" },
       { n: 2, date: "Oct 4", away: "SD", home: "MIL", awayScore: 3, homeScore: 4, venue: "American Family Field", status: "final" },
       { n: 3, date: "Oct 6", away: "MIL", home: "SD", awayScore: 3, homeScore: 4, venue: "Petco Park", status: "final" },
-      { n: 4, date: "Oct 7", away: "MIL", home: "SD", venue: "Petco Park", time: "10 p.m. ET", tv: "FS1", status: "next" },
-      { n: 5, date: "Oct 9", away: "SD", home: "MIL", venue: "American Family Field", status: "if" },
+      { n: 4, date: "Oct 7", away: "MIL", home: "SD", awayScore: 3, homeScore: 1, venue: "Petco Park", status: "final" },
     ],
   },
   {
-    id: "lad-atl", round: "NLDS", high: "LAD", low: "ATL", leader: "LAD", summary: "Dodgers lead 2–1",
+    id: "lad-atl", round: "NLDS", high: "LAD", low: "ATL", leader: "LAD", summary: "Dodgers win 3–1",
     games: [
       { n: 1, date: "Oct 3", away: "ATL", home: "LAD", awayScore: 3, homeScore: 5, venue: "Dodger Stadium", status: "final" },
       { n: 2, date: "Oct 4", away: "ATL", home: "LAD", awayScore: 3, homeScore: 2, venue: "Dodger Stadium", status: "final" },
       { n: 3, date: "Oct 6", away: "LAD", home: "ATL", awayScore: 3, homeScore: 1, venue: "Truist Park", status: "final" },
-      { n: 4, date: "Oct 7", away: "LAD", home: "ATL", venue: "Truist Park", time: "6 p.m. ET", tv: "FS1", status: "next" },
-      { n: 5, date: "Oct 9", away: "ATL", home: "LAD", venue: "Dodger Stadium", status: "if" },
+      { n: 4, date: "Oct 7", away: "LAD", home: "ATL", awayScore: 4, homeScore: 1, venue: "Truist Park", status: "final" },
     ],
   },
   {
-    id: "tb-nyy", round: "ALDS", high: "TB", low: "NYY", leader: "TB", summary: "Rays lead 2–0",
+    id: "tb-nyy", round: "ALDS", high: "TB", low: "NYY", leader: "TB", summary: "Rays win 3–0",
     games: [
       { n: 1, date: "Oct 3", away: "NYY", home: "TB", awayScore: 0, homeScore: 1, venue: "Tropicana Field", status: "final" },
       { n: 2, date: "Oct 5", away: "NYY", home: "TB", awayScore: 2, homeScore: 5, venue: "Tropicana Field", status: "final" },
-      { n: 3, date: "Oct 7", away: "TB", home: "NYY", venue: "Yankee Stadium", time: "8 p.m. ET", tv: "TBS", status: "next" },
-      { n: 4, date: "Oct 8", away: "TB", home: "NYY", venue: "Yankee Stadium", status: "if" },
-      { n: 5, date: "Oct 10", away: "NYY", home: "TB", venue: "Tropicana Field", status: "if" },
+      { n: 3, date: "Oct 7", away: "TB", home: "NYY", awayScore: 4, homeScore: 3, venue: "Yankee Stadium", status: "final" },
     ],
   },
   {
-    id: "cle-cws", round: "ALDS", high: "CLE", low: "CWS", leader: "CWS", summary: "White Sox lead 2–0",
+    id: "cle-cws", round: "ALDS", high: "CLE", low: "CWS", summary: "Series tied 2–2",
     games: [
       { n: 1, date: "Oct 3", away: "CWS", home: "CLE", awayScore: 3, homeScore: 0, venue: "Progressive Field", status: "final" },
       { n: 2, date: "Oct 5", away: "CWS", home: "CLE", awayScore: 4, homeScore: 3, venue: "Progressive Field", status: "final" },
-      { n: 3, date: "Oct 7", away: "CLE", home: "CWS", venue: "Rate Field", time: "4 p.m. ET", tv: "TBS", status: "next" },
-      { n: 4, date: "Oct 8", away: "CLE", home: "CWS", venue: "Rate Field", status: "if" },
-      { n: 5, date: "Oct 10", away: "CWS", home: "CLE", venue: "Progressive Field", status: "if" },
+      { n: 3, date: "Oct 7", away: "CLE", home: "CWS", awayScore: 9, homeScore: 3, venue: "Rate Field", status: "final" },
+      { n: 4, date: "Oct 8", away: "CLE", home: "CWS", awayScore: 9, homeScore: 5, venue: "Rate Field", status: "final" },
+      { n: 5, date: "Oct 10", away: "CWS", home: "CLE", venue: "Progressive Field", time: "8 p.m. ET", tv: "TBS", status: "next" },
     ],
   },
 ];
@@ -154,53 +151,51 @@ export const VIDEOS: Video[] = [
 export interface Story { id: string; kicker: string; head: string; short: string; dek: string; body: string[] }
 export const HEADLINES: Story[] = [
   {
-    id: "padres-alive", kicker: "NLDS Game 3", short: "Padres\n4–3", head: "Padres beat Brewers 4–3 to force Game 4; King saves it in relief",
-    dek: "Cronenworth homered, Machado and Tatis drove in runs in the third, and Milwaukee's eleven hits produced three runs.",
+    id: "brewers-advance", kicker: "NLDS Game 4", short: "Brewers\n3–1", head: "Brewers eliminate Padres 3–1 and will meet the Dodgers in the NLCS",
+    dek: "Garrett Mitchell tripled, scored the go-ahead run and caught Machado's 406-foot drive at the wall in the eighth.",
     body: [
-      "San Diego scored twice in the third inning off Dustin May, on Fernando Tatis Jr.'s groundout and Manny Machado's single, and led the rest of the way. William Contreras's fourth-inning home run and Jackson Chourio's fifth-inning sacrifice fly tied it, 2–2; Jake Cronenworth's home run off JoJo Romero in the bottom of the fifth put the Padres back ahead, and a throwing error by Cooper Pratt let Xander Bogaerts score in the sixth. Christian Yelich's seventh-inning single made it 4–3.",
-      "Nick Pivetta went four and a third innings for San Diego; Yuki Matsui was credited with the win, Bradgley Rodriguez with a hold, and Michael King — the Game 2 starter — pitched the eighth and ninth for the save, allowing one hit. Contreras had three hits for Milwaukee, which stranded the tying run. Game 4 is Wednesday at 10 p.m. ET at Petco Park.",
+      "Milwaukee won Game 4 at Petco Park on Wednesday night, 3–1, to take the Division Series in four games. Garrett Mitchell singled home Sal Frelick in the third, tripled leading off the fifth and scored on Jackson Chourio's single, and Frelick's sacrifice fly in the sixth made it 3–1. Fernando Tatis Jr.'s 429-foot home run in the third was San Diego's only run.",
+      "In the eighth, Manny Machado drove a ball 406 feet to right-centre off Abner Uribe and Mitchell caught it just above the wall. Robert Gasser allowed three hits in four innings, Aaron Ashby pitched three hitless innings for the win and Trevor Megill saved it. It was the Brewers' first postseason road win since the 2018 NLCS, ending a run of twelve losses, and puts them in a League Championship Series for the fifth time.",
     ],
   },
   {
-    id: "yamamoto", kicker: "NLDS Game 3", short: "Yamamoto:\n10 K", head: "Yamamoto strikes out ten as Dodgers take 2–1 lead in Atlanta",
-    dek: "Seven innings, four hits, one run; Edwin Díaz closed the 3–1 win at Truist Park.",
+    id: "dodgers-clinch", kicker: "NLDS Game 4", short: "Dodgers\n4–1", head: "Pages's two-run single in the seventh sends the Dodgers past Atlanta",
+    dek: "Los Angeles won both games at Truist Park. Max Muncy's ninth-inning home run was his nineteenth in the postseason.",
     body: [
-      "Yoshinobu Yamamoto pitched seven innings for the Dodgers in Game 3 on Tuesday, allowing four hits and one run while striking out ten, and Los Angeles beat Atlanta 3–1 to lead the series two games to one. All three Dodgers runs came in the fourth inning against Chris Sale, who went five innings and allowed seven hits. Edwin Díaz pitched the ninth for the save.",
-      "Game 4 is Wednesday at 6 p.m. ET at Truist Park. A Dodgers win sends the two-time defending champions to the NLCS for the fourth time in six years; a Braves win sends the series back to Dodger Stadium for Game 5 on Friday.",
+      "Andy Pages lined a full-count pitch from Robert Suarez up the middle with the bases loaded in the seventh, scoring Teoscar Hernández and pinch-runner Tommy Edman, and the Dodgers beat the Braves 4–1 on Wednesday to win the series three games to one. Max Muncy homered off Raisel Iglesias in the ninth, extending his franchise record to nineteen postseason home runs.",
+      "Tyler Glasnow allowed one hit and walked five in four and two-thirds innings; four relievers followed, and Edgardo Henriquez was credited with the win and Edwin Díaz with the save. Atlanta's run scored on a wild pitch in the first, and the Dodgers tied it in the second on two Braves errors. The Braves drew eighteen walks in the series and none of those runners scored.",
     ],
   },
   {
-    id: "rays-one-hit", kicker: "ALDS Game 1", short: "One-hitter", head: "Rays one-hit the Yankees; Rasmussen carries no-hitter into the eighth",
-    dek: "Jonathan Aranda's third-inning home run off Gerrit Cole was the only run of the game.",
+    id: "rays-sweep", kicker: "ALDS Game 3", short: "Rays\nsweep", head: "Rays sweep the Yankees, 4–3, on Mesa's home run and a fan-interference ruling",
+    dek: "Tampa Bay reaches the ALCS for the first time since 2020. New York never led in the series.",
     body: [
-      "Drew Rasmussen held the Yankees without a hit for seven and two-thirds innings in Game 1 at Tropicana Field on Saturday, until Austin Wells doubled with two outs in the eighth and was thrown out trying to stretch it to a triple. Rasmussen finished eight scoreless innings with ten strikeouts on 101 pitches, and Bryan Baker pitched the ninth for the save in a 1–0 Rays win.",
-      "Jonathan Aranda's solo home run off Gerrit Cole in the third was the game's only run. Cole went five innings and allowed five hits. It was the first time in the franchise's history that the Yankees had one hit or fewer in a postseason game.",
+      "Victor Mesa Jr. hit a two-run home run off Max Fried in the sixth inning at Yankee Stadium on Wednesday to put the Rays ahead 4–2. In the bottom half Anthony Volpe's drive to left was caught by a fan reaching over the wall; after a review it was ruled a run-scoring double rather than a two-run home run, and Griffin Jax struck out Spencer Jones to keep the lead.",
+      "Ryan Vilade also homered for Tampa Bay. Ian Seymour was the winning pitcher and Bryan Baker earned his third save of the series. The Yankees, without Aaron Judge since a calf strain on September 16, were swept in a best-of-five series for the first time since the 1980 ALCS. The Rays will host Cleveland or Chicago in Game 1 of the ALCS on Monday.",
     ],
   },
   {
-    id: "white-sox", kicker: "ALDS", short: "Sox up 2–0", head: "White Sox take 2–0 series lead to Chicago, where they have not hosted a playoff game since 2021",
-    dek: "Grant Taylor struck out the final four batters of Game 1 and saved Game 2.",
+    id: "guardians-level", kicker: "ALDS Game 4", short: "Tied\n2–2", head: "Guardians score six in the sixth, win 9–5 and force a fifth game",
+    dek: "Chicago led 2–0 and 4–3. Grant Taylor, who closed Games 1 and 2, faced six batters and retired none.",
     body: [
-      "The White Sox won Games 1 and 2 at Progressive Field, 3–0 on Saturday and 4–3 on Monday. In the opener Munetaka Murakami hit a two-run home run in the fourth and Colson Montgomery added an RBI double in the seventh; Grant Taylor struck out the final four batters. It was Chicago's first postseason shutout since Game 4 of the 2005 World Series.",
-      "In Game 2 Cleveland scored twice in the first on a throwing error, and Gavin Williams struck out eleven in five innings, but Braden Montgomery's two-run double and Chase Meidroth's RBI single in the sixth put Chicago ahead 4–2. Jo Adell's RBI triple in the eighth brought the Guardians within a run; Sean Burke pitched five and a third innings of one-hit relief for the win, and Taylor earned the save.",
-      "Game 3 is Wednesday at 4 p.m. ET at Rate Field. The White Sox, who swept Houston in the Wild Card round for their first series win since 2005, have never before met Cleveland in the postseason.",
+      "The White Sox led 2–0 after three innings at Rate Field on Thursday, on a bases-loaded walk to Munetaka Murakami and a sacrifice fly, and 4–3 after five. Patrick Bailey and José Ramírez homered in the fifth for Cleveland, Ramírez's a two-run shot. In the sixth the Guardians scored six: Travis Bazzana doubled home the tying run, Bailey singled him in, and Ramírez, Chase DeLauter and Jo Adell followed with run-scoring singles.",
+      "Grant Taylor was charged with four runs on four hits and two walks without recording an out. Erik Sabrowski was the winning pitcher and Anthony Kay took the loss; Miguel Vargas homered for Chicago in the ninth. Game 5 is Saturday at 8 p.m. ET at Progressive Field.",
     ],
   },
   {
-    id: "braves-elimination", kicker: "NLDS Game 4", short: "Braves\nmust win", head: "Braves face elimination at home after Sale is outpitched",
-    dek: "Atlanta is 1–3 at home against Los Angeles in the postseason since 2018.",
+    id: "guardians-triples", kicker: "ALDS Game 3", short: "Two\ntriples", head: "Adell and Ramírez triple as Cleveland avoids a sweep, 9–3",
+    dek: "Two triples in a postseason game is a first for the franchise. Foster Griffin struck out seven in relief.",
     body: [
-      "Atlanta's lone run in Game 3 came in the fifth inning; the Braves managed five hits and committed two errors. Chris Sale, who had pitched six and a third innings with nine strikeouts against the Phillies in the Wild Card round and closed out that series in relief, allowed three runs in the fourth and was lifted after five.",
-      "The Braves won Game 2 in Los Angeles 3–2 on Sunday, when Michael Harris II tripled and scored on a wild pitch in the fifth and doubled home Matt Olson in the seventh, and Raisel Iglesias recorded the last out with the tying run at the plate after Max Muncy's ninth-inning home run. This is the sixth postseason meeting between the clubs; the Braves won the most recent, the 2021 NLCS.",
+      "Facing elimination on Wednesday, Cleveland took a 4–1 lead in the third inning on Jo Adell's three-run triple with two out, and José Ramírez's two-run triple in the eighth made it 7–3. The Guardians had eleven hits after managing seven in the first two games together.",
+      "Foster Griffin struck out seven in two and two-thirds innings, a franchise postseason record for a reliever, and Chicago's hitters struck out nineteen times in all. A crowd of 40,590 saw the White Sox's first home playoff game since 2021.",
     ],
   },
   {
-    id: "yankees-errors", kicker: "ALDS Game 2", short: "0–2", head: "Four Yankees errors in a 5–2 loss; Ben Rice homers twice",
-    dek: "New York goes home down 0–2 for Game 3 at Yankee Stadium on Wednesday night.",
+    id: "nlcs-rematch", kicker: "NLCS", short: "Sunday", head: "Brewers and Dodgers meet again; Game 1 is Sunday in Milwaukee",
+    dek: "Los Angeles swept Milwaukee in last year's NLCS. The Brewers won 103 games and have home field.",
     body: [
-      "The Yankees committed three errors in the first inning of Game 2 on Monday, and a fourth later, in a 5–2 loss at Tropicana Field. A Ryan McMahon error and a Jazz Chisholm Jr. throw let Yandy Díaz score the game's first run; Ben Rice tied it with a solo home run in the fourth, and hit a second in the eighth.",
-      "Tampa Bay scored four in the fifth, chasing Cam Schlittler after four and a third innings in which he allowed seven hits and four runs, two of them earned. Richie Palacios's two-run single made it 5–1. Cam Booser was credited with the win on eight pitches and Bryan Baker saved his second game of the series.",
-      "Game 3 is Wednesday at 8 p.m. ET at Yankee Stadium. The Rays won the only previous postseason meeting between the clubs, the 2020 ALDS, in five games.",
+      "The National League Championship Series opens Sunday at 8 p.m. ET at American Family Field, with Game 2 on Monday afternoon. It is a rematch of last October's series, which the Dodgers swept on the way to a second straight title; they are trying to become the first National League club to win three in a row.",
+      "The American League series begins Monday at Tropicana Field, where the Rays will host the winner of Saturday's fifth game between Cleveland and Chicago.",
     ],
   },
 ];
@@ -210,14 +205,14 @@ export interface Fact { label: string; line: string; fitClass?: string; body?: s
 
 /** The lead: Brewers at Padres, Game 3, as it stands. */
 export const LEAD: { kicker: string; head: string; dek: string; facts: Fact[] } = {
-  kicker: "NLDS Game 3 · Petco Park",
-  head: "Padres stay alive, 4–3; King closes it two days after starting Game 2",
-  dek: "San Diego led 2–0, 3–2 and 4–2 and held on against eleven Milwaukee hits. Michael King pitched the eighth and ninth for the save in front of 47,708. Game 4 is Wednesday at 10 p.m. ET; the Brewers still lead the series 2–1.",
+  kicker: "NLDS Game 4 · Petco Park",
+  head: "Brewers finish the Padres, 3–1; Mitchell's catch at the wall saves the eighth",
+  dek: "Milwaukee won its first postseason road game since 2018 in front of 47,712 and took the series three games to one. Four games were decided by five runs in total. The Brewers host the Dodgers in Game 1 of the NLCS on Sunday.",
   facts: [
-    { label: "Miller, Game 2 ninth", line: "40", fitClass: "fit--num", body: "Mason Miller struck out two in the eighth and retired the first batter of the ninth, then walked Yelich, Frelick and Sánchez — his first career postseason walks — before Jackson Chourio's two-run single ended it, 4–3. Forty pitches was his most since 2023." },
-    { label: "Game 1, ninth inning", line: "105 mph\n49°", fitClass: "fit--num", body: "Ty France's fly ball with the Padres down a run struck the roof of American Family Field and came down to Jackson Chourio for an out. Batted balls at that exit velocity and launch angle have never been home runs; the Brewers won 3–2 on William Contreras's seventh-inning home run." },
-    { label: "First meeting", line: "1969", fitClass: "fit--num", body: "The Brewers and Padres both entered the National League in the 1969 expansion, and neither has won a World Series. This is their first postseason series. San Diego won the season series 4–2." },
-    { label: "King, Game 3", line: "2 IP\nsave", fitClass: "fit--num", body: "Michael King, Sunday's Game 2 starter, pitched the eighth and ninth: one hit, two walks, no runs.", long: "Yuki Matsui was the winning pitcher; JoJo Romero, who allowed Jake Cronenworth's fifth-inning home run, took the loss." },
+    { label: "Chourio, RBI", line: "17", fitClass: "fit--num", body: "Jackson Chourio's fifth-inning single scored Garrett Mitchell with the go-ahead run and passed Ryan Braun for the most postseason runs batted in by a Brewer. He is 22 and has played sixteen playoff games; six of the seventeen came in this series." },
+    { label: "Machado, eighth inning", line: "406 ft", fitClass: "fit--num", body: "Manny Machado's drive off Abner Uribe would have tied the game. Mitchell tracked it to the short wall in right-centre and reached just above it for the out; Brice Turang ended the inning by catching Ty France's pop-up in foul ground." },
+    { label: "Road skid ended", line: "12", fitClass: "fit--num", body: "Milwaukee had lost twelve straight postseason road games since the 2018 NLCS. This is the club's fifth League Championship Series and its second in a row." },
+    { label: "Tatis, third inning", line: "429 ft", fitClass: "fit--num", body: "Fernando Tatis Jr.'s home run to centre was San Diego's only run.", long: "It ended a 1-for-19 stretch since the Padres' playoff opener. San Diego had three hits in the game; four Brewers pitchers combined on the three-hitter." },
   ],
 };
 
@@ -225,33 +220,33 @@ export const LEAD: { kicker: string; head: string; dek: string; facts: Fact[] } 
 
 export const SERIES_STORIES: Record<string, { title: string; standfirst: string; facts: Fact[] }> = {
   "tb-nyy": {
-    title: "Rays 2, Yankees 0",
-    standfirst: "Tampa Bay, back at Tropicana Field after the roof damage of 2024, won the opener 1–0 on a one-hitter and the second 5–2 on New York's errors. The series moves to the Bronx for Game 3 on Wednesday at 8 p.m. ET.",
+    title: "Rays 3, Yankees 0",
+    standfirst: "Tampa Bay swept: a one-hitter, a game decided by New York's errors, and a 4–3 win in the Bronx on Wednesday. The Yankees never led. The Rays are in the ALCS for the first time since 2020 and open it at home on Monday.",
     facts: [
-      { label: "Game 1", line: "1–0", fitClass: "fit--num", body: "Aranda's third-inning home run off Cole. Rasmussen 8 IP, 1 H, 10 K; Baker the save.", long: "Rasmussen carried a no-hitter into the eighth, lost it to an Austin Wells double, and finished eight scoreless innings on 101 pitches. The Yankees had never before had one hit or fewer in a postseason game." },
-      { label: "Game 2", line: "5–2", fitClass: "fit--num", body: "Four Yankees errors. Rice two solo home runs; Palacios a two-run single in the fifth.", long: "Three of the errors came in the first inning, along with a catcher's interference. Schlittler was charged with four runs, two earned, in four and a third innings." },
+      { label: "Game 3", line: "4–3", fitClass: "fit--num", body: "Mesa's two-run home run off Fried in the sixth. Vilade also homered; Baker saved his third game of the series.", long: "Anthony Volpe's drive in the bottom of the sixth was caught by a fan reaching over the left-field wall and ruled a run-scoring double on review. Ian Seymour was the winning pitcher." },
+      { label: "Game 1", line: "1–0", fitClass: "fit--num", body: "Aranda's third-inning home run off Cole. Rasmussen 8 IP, 1 H, 10 K.", long: "Rasmussen carried a no-hitter into the eighth, lost it to an Austin Wells double, and finished eight scoreless innings on 101 pitches. The Yankees had never before had one hit or fewer in a postseason game." },
       { label: "Rays, 2026", line: "98–64", fitClass: "fit--num", body: "AL East champions, the league's best record, and home field through the ALCS." },
-      { label: "Season series", line: "7–6\nRays", fitClass: "fit--num", body: "Thirteen games between the division rivals; three runs separated them in total." },
+      { label: "Swept in five", line: "1980", fitClass: "fit--num", body: "The last time the Yankees were swept in a best-of-five series, by Kansas City in the ALCS." },
     ],
   },
   "cle-cws": {
-    title: "White Sox 2, Guardians 0",
-    standfirst: "Chicago, the sixth seed, won twice in Cleveland and goes home needing one more. Cleveland overtook the White Sox for the Central title in the last ten days of the season; Chicago won the season series 7–6.",
+    title: "Guardians 2, White Sox 2",
+    standfirst: "Chicago won twice in Cleveland; Cleveland won twice in Chicago, 9–3 and 9–5. The fifth game is Saturday at 8 p.m. ET at Progressive Field, and the winner goes to Tampa Bay for the ALCS.",
     facts: [
-      { label: "Game 1", line: "3–0", fitClass: "fit--num", body: "Murakami's two-run home run in the fourth; Montgomery's RBI double in the seventh. Taylor struck out the last four.", long: "Chicago's first postseason shutout since Game 4 of the 2005 World Series, which was also the last time the franchise won a postseason series before this month." },
-      { label: "Game 2", line: "4–3", fitClass: "fit--num", body: "Down 2–0 after a first-inning throwing error, Chicago scored three in the sixth. Burke 5⅓ IP in relief for the win.", long: "Gavin Williams struck out eleven in five innings for Cleveland. Jo Adell's eighth-inning triple brought the Guardians within a run before Grant Taylor closed it." },
-      { label: "Williams, Game 2", line: "11 K", fitClass: "fit--num", body: "In five innings, on a night Cleveland lost by one." },
-      { label: "Since", line: "2005", fitClass: "fit--num", body: "The White Sox had not won a postseason series since the 2005 World Series until they swept Houston last week." },
+      { label: "Game 4", line: "9–5", fitClass: "fit--num", body: "Six runs in the sixth. Bailey and Ramírez homered in the fifth; Adell's two-run single finished the rally.", long: "Chicago led 2–0 and 4–3. Grant Taylor, who had closed Games 1 and 2, faced six batters and was charged with four runs without recording an out. Erik Sabrowski was the winning pitcher." },
+      { label: "Game 3", line: "9–3", fitClass: "fit--num", body: "Adell's three-run triple in the third and Ramírez's two-run triple in the eighth.", long: "Two triples in a postseason game was a first for the franchise. Foster Griffin struck out seven in two and two-thirds innings of relief, and Chicago struck out nineteen times." },
+      { label: "Cleveland runs, Games 3 and 4", line: "18", fitClass: "fit--num", body: "After three in the first two games together." },
+      { label: "Game 5", line: "Sat.", body: "8 p.m. ET at Progressive Field, on TBS." },
     ],
   },
   "lad-atl": {
-    title: "Dodgers 2, Braves 1",
-    standfirst: "Los Angeles won Game 1 in 100°F heat and Game 3 behind Yamamoto; Atlanta took Game 2 on Harris's triple and double. Game 4 is Wednesday at 6 p.m. ET at Truist Park.",
+    title: "Dodgers 3, Braves 1",
+    standfirst: "Los Angeles won Game 1 in 100°F heat, lost Game 2, and won twice in Atlanta, 3–1 behind Yamamoto and 4–1 on Andy Pages's seventh-inning single. The two-time defending champions go to Milwaukee for the NLCS.",
     facts: [
-      { label: "Game 1", line: "5–3", fitClass: "fit--num", body: "Home runs by Teoscar Hernández, Kyle Tucker and Max Muncy; Sean Murphy and Ozzie Albies for Atlanta.", long: "At 100°F it was the second-hottest postseason game on record. Muncy's home run was his seventeenth in the postseason, a franchise record." },
-      { label: "Game 2", line: "3–2", fitClass: "fit--num", body: "Harris tripled and scored on a wild pitch, then doubled home Olson. Freeman and Muncy homered for Los Angeles.", long: "Blake Snell walked five in three and two-thirds innings. Raisel Iglesias got the last out after Muncy's ninth-inning home run." },
+      { label: "Game 4", line: "4–1", fitClass: "fit--num", body: "Pages's two-run single in the seventh; Muncy's home run in the ninth. Glasnow one hit in 4⅔ innings.", long: "Atlanta scored on a wild pitch in the first; the Dodgers tied it in the second on two Braves errors. Edgardo Henriquez was the winning pitcher and Edwin Díaz saved his second game of the series." },
+      { label: "Braves walks", line: "18", fitClass: "fit--num", body: "In four games; none of the runners scored.", long: "Glasnow walked five on Wednesday; Blake Snell walked five in Game 2." },
       { label: "Game 3", line: "3–1", fitClass: "fit--num", body: "Yamamoto 7 IP, 4 H, 1 R, 10 K. Three Dodgers runs in the fourth off Sale; Díaz the save." },
-      { label: "Muncy", line: "17", fitClass: "fit--num", body: "Postseason home runs, the most in Dodgers history, after two in this series." },
+      { label: "Muncy", line: "19", fitClass: "fit--num", body: "Postseason home runs, the most in Dodgers history, after three in this series." },
       { label: "Game 1", line: "100°F", fitClass: "fit--num", body: "Second-hottest postseason game on record, after Game 1 of the 2017 World Series at the same park." },
     ],
   },
@@ -275,22 +270,22 @@ export const NUMBERS: Fact[] = [
   { label: "Sweeps", line: "3 of 4", fitClass: "fit--num", body: "Wild Card series decided in two games. Only Braves–Phillies went three." },
   { label: "100-win teams", line: "2", fitClass: "fit--num", body: "Milwaukee and Los Angeles, the first since 2023." },
   { label: "AL over .500", line: "5", fitClass: "fit--num", body: "Teams in the American League with a winning record. Two won 90." },
-  { label: "LCS", line: "Oct. 11", body: "The NLCS opens Sunday; the ALCS on Monday the 12th." },
+  { label: "LCS", line: "Oct. 11", body: "The NLCS opens Sunday in Milwaukee; the ALCS on Monday the 12th at Tropicana Field." },
 ];
 
 export const TRENDING = [
-  "Padres force Game 4 behind King's two-inning save",
-  "Yamamoto's ten strikeouts in Atlanta",
-  "Rasmussen's near no-hitter",
-  "Rays–Yankees Game 3, Wednesday 8 p.m. ET",
-  "White Sox go home up 2–0",
-  "Cronenworth's go-ahead home run",
+  "Brewers–Dodgers, an NLCS rematch",
+  "Mitchell's catch on Machado at the wall",
+  "Rays sweep the Yankees",
+  "The fan-interference ruling in the Bronx",
+  "Guardians force Game 5 with a six-run sixth",
+  "Muncy's nineteenth postseason home run",
 ];
 
 export const NETWORK = {
   name: "GIFcommit",
   tagline: "A fictional network built for a layout study.",
-  plus: { name: "GIFcommit+", price: "$11.99", period: "a month", pitch: "Every out-of-market Division Series game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
+  plus: { name: "GIFcommit+", price: "$11.99", period: "a month", pitch: "Every out-of-market postseason game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
   fantasy: { name: "GIFcommit Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
   app: { pitch: "Scores in the notification shade, the scoreboard in a widget, and alerts when a game is in its final inning.", cta: "Get the app" },
   newsletter: { pitch: "One email a morning through the end of the World Series: last night's scores, today's starters, the one fact worth repeating.", cta: "Sign up" },

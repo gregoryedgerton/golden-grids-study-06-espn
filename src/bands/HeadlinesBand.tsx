@@ -22,7 +22,7 @@ export function HeadlinesBand() {
   const split = viewport === "mobile";
   const note = split ? 'two grids: from=1 to=3 · placement="top" / "bottom"' : 'from=1 to=6 · placement="left" · clockwise=false';
   return (
-    <Band id="headlines" kicker="Top headlines" title="Division Series, day five" note={note} aside={{ href: "#schedule", label: "Today's schedule" }}>
+    <Band id="headlines" kicker="Top headlines" title="Three series decided, one to a fifth game" note={note} aside={{ href: "#schedule", label: "What is left" }}>
       {split ? (
         <div className="stack">
           <GoldenGrid from={1} to={3} placement="top">{HEADLINES.slice(0, 3).map((h, i) => <GoldenBox key={h.id} {...x.boxProps(h.id)}><Headline h={h} x={x} short={i > 0} /></GoldenBox>)}</GoldenGrid>

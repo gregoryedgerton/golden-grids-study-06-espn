@@ -30,7 +30,7 @@ export function Page({ children }: { children: ReactNode }) {
       </header>
 
       <main id="content">
-        <h1 className="dateline"><span className="dateline__net">{NETWORK.name}</span> <span className="dateline__date">{DATELINE}</span> <span className="dateline__sub">MLB Division Series, day five</span></h1>
+        <h1 className="dateline"><span className="dateline__net">{NETWORK.name}</span> <span className="dateline__date">{DATELINE}</span> <span className="dateline__sub">MLB postseason: three series decided, one to a fifth game</span></h1>
         {children}
       </main>
 
