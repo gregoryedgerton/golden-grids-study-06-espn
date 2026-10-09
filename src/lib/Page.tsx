@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Tools } from "./tools";
+import { StudyBanner, StudyDisclosure } from "./study";
 import { CREDITS, DATELINE, DIVISION, NETWORK, TEAMS, VIDEOS, type Game, type Series } from "../content";
 
 /**
@@ -13,6 +14,7 @@ export function Page({ children }: { children: ReactNode }) {
   return (
     <>
       <a className="skip" href="#content">Skip to content</a>
+      <StudyBanner />
       <Tools />
       <header className="global">
         <div className="global__bar">
@@ -34,17 +36,8 @@ export function Page({ children }: { children: ReactNode }) {
         {children}
       </main>
 
-      <footer className="colophon" id="credits">
-        <p>
-          A layout study of the <a href="https://www.espn.com/">espn.com</a> front page, built with{" "}
-          <a href="https://github.com/gregoryedgerton/golden-grids">Golden Grids</a> ·{" "}
-          <a href="https://www.npmjs.com/package/@gifcommit/golden-grids">npm</a> ·{" "}
-          <a href="https://gregoryedgerton.github.io/golden-grids/">generator</a>. GIFcommit is a fictional network;
-          nothing from the reference site is reproduced. The games, scores and records are the public record of the
-          2026 Major League Baseball postseason as of the morning of October 7, 2026; the copy is the study's own.
-          No form on this page sends anything.
-        </p>
-        <details className="credits">
+      <StudyDisclosure>
+        <details className="credits" id="credits">
           <summary>Photograph and video credits</summary>
           <p>All photographs and video are from Wikimedia Commons under the licences stated; none is from ESPN or Major League Baseball.</p>
           <ul>
@@ -52,7 +45,7 @@ export function Page({ children }: { children: ReactNode }) {
             {VIDEOS.map((v) => <li key={v.key}><a href={v.page}>{v.alt}</a> — {v.who}, {v.licence}.</li>)}
           </ul>
         </details>
-      </footer>
+      </StudyDisclosure>
     </>
   );
 }

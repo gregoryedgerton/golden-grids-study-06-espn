@@ -1,0 +1,52 @@
+{
+  "number": "06",
+  "name": "ESPN",
+  "notice": "A layout study, not ESPN: a front page rebuilt with Golden Grids for GIFcommit, a fictional network. Scores are the public record; not affiliated with ESPN or Major League Baseball.",
+  "pages": {
+    "index": "Front page"
+  },
+  "summary": "The ESPN front page (a lead story, headlines, a scoreboard, cards with strips of people, video, promotions, a schedule and a bracket) rebuilt as stacked golden grids for a network that does not exist, on a real morning of the 2026 baseball postseason.",
+  "reviewed": {
+    "date": "October 6, 2026",
+    "method": "Captured at 390, 820 and 1440 pixels; colours and type measured from the capture. The games were brought up to the morning of October 9, 2026.",
+    "pages": [
+      {
+        "label": "espn.com, front page",
+        "url": "https://www.espn.com/"
+      }
+    ]
+  },
+  "real": [
+    "The games, scores, records, dates, venues, pitching lines and attendances of the 2026 Major League Baseball postseason, as published in ESPN's scoreboard data and game stories, MLB's box scores and Wikipedia's articles on the postseason.",
+    "The people named, and what they did in those games."
+  ],
+  "invented": [
+    "GIFcommit as a sports network, with its subscription, its price, its fantasy game, its app and its newsletter.",
+    "Every sentence. The reporting is restated in the study's own words, and nothing is quoted from ESPN.",
+    "The forms, which send nothing."
+  ],
+  "assets": [
+    {
+      "what": "Photographs and video",
+      "source": "Wikimedia Commons, each credited below. None is from ESPN or Major League Baseball, and no picture is a frame of a broadcast. Players appear in the uniform the photograph caught them in, which is not always their 2026 club's.",
+      "licence": "CC0, CC BY or CC BY-SA, as stated for each"
+    },
+    {
+      "what": "Video clips",
+      "source": "Three silent ten-second clips cut from Commons files; the full videos load from Wikimedia only on request."
+    },
+    {
+      "what": "Scores and schedule",
+      "source": "ESPN's public scoreboard data",
+      "url": "https://www.espn.com/mlb/scoreboard"
+    },
+    {
+      "what": "Typeface",
+      "source": "Barlow Condensed for headings, the system typeface for text",
+      "licence": "SIL Open Font License"
+    }
+  ],
+  "owner": "ESPN, Major League Baseball, its clubs or the players shown",
+  "repo": "https://github.com/gregoryedgerton/golden-grids-study-06-espn",
+  "updated": "October 9, 2026"
+}
