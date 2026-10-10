@@ -1,5 +1,5 @@
 /**
- * GIFcommit — a fictional sports network's front page on the morning of
+ * GIFspn — a fictional sports network's front page on the morning of
  * Friday, October 9, 2026: three Division Series decided, one going to a
  * fifth game.
  *
@@ -283,10 +283,10 @@ export const TRENDING = [
 ];
 
 export const NETWORK = {
-  name: "GIFcommit",
+  name: "GIFspn",
   tagline: "A fictional network built for a layout study.",
-  plus: { name: "GIFcommit+", price: "$11.99", period: "a month", pitch: "Every out-of-market postseason game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
-  fantasy: { name: "GIFcommit Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
+  plus: { name: "GIFspn+", price: "$11.99", period: "a month", pitch: "Every out-of-market postseason game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
+  fantasy: { name: "GIFspn Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
   app: { pitch: "Scores in the notification shade, the scoreboard in a widget, and alerts when a game is in its final inning.", cta: "Get the app" },
   newsletter: { pitch: "One email a morning through the end of the World Series: last night's scores, today's starters, the one fact worth repeating.", cta: "Sign up" },
 };

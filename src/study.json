@@ -1,7 +1,7 @@
 {
   "number": "06",
   "name": "ESPN",
-  "notice": "A layout study, not ESPN: a front page rebuilt with Golden Grids for GIFcommit, a fictional network. Scores are the public record; not affiliated with ESPN or Major League Baseball.",
+  "notice": "A layout study, not ESPN: a front page rebuilt with Golden Grids for GIFspn, a fictional network with a parody name. Scores are the public record; not affiliated with ESPN or Major League Baseball.",
   "pages": {
     "index": "Front page"
   },
@@ -21,7 +21,7 @@
     "The people named, and what they did in those games."
   ],
   "invented": [
-    "GIFcommit as a sports network, with its subscription, its price, its fantasy game, its app and its newsletter.",
+    "GIFspn as a sports network, with its subscription (GIFspn+), its price, its fantasy game, its app and its newsletter. The names are parodies made for this study.",
     "Every sentence. The reporting is restated in the study's own words, and nothing is quoted from ESPN.",
     "The forms, which send nothing."
   ],

@@ -1,4 +1,4 @@
-# Layout study — the ESPN front page, as GIFcommit
+# Layout study — the ESPN front page, as GIFspn
 
 **Live:** [`https://gregoryedgerton.github.io/golden-grids-study-06-espn/`](https://gregoryedgerton.github.io/golden-grids-study-06-espn/)
 
@@ -6,7 +6,7 @@ An unaffiliated layout study. It rebuilds the structure of the espn.com
 front page — a scoreboard strip, a lead story card, a headline list, story
 cards with strips of people under them, video, promotions, the schedule, the
 bracket and a trending list — as stacked golden grids, for a fictional
-network called GIFcommit, on the morning of Friday, October 9, 2026, the seventh
+network called GIFspn, on the morning of Friday, October 9, 2026, the seventh
 day of the 2026 MLB Division Series. The games, scores, records and the
 people who decided them are the public record; the copy is the study's own;
 the network, its products and its prices are invented, and the forms send
@@ -40,7 +40,7 @@ The reference's front page has one lead story, a few second stories and a strip 
 ## The page
 
 One page. Bands in order; measured sizes are the grid's width×height at
-390 / 820 / 1440. Flat modules between them (the GIFcommit+ banner, the
+390 / 820 / 1440. Flat modules between them (the GIFspn+ banner, the
 promotions, the schedule, the bracket, trending) are lists and cards, not
 grids. Breakpoints live in [`src/lib/viewport.ts`](src/lib/viewport.ts).
 
@@ -53,7 +53,7 @@ grids. Breakpoints live in [`src/lib/viewport.ts`](src/lib/viewport.ts).
 | Dodgers–Braves, Game 4 | 1–6 · left · ccw (bottom at 390) | 332×540 / 762×469 / 1246×767 | Truist Park, Acuña, Olson, Freeman, Hernández, Albies |
 | Rays 2, Yankees 0 | 1–5 · top · cw (right at 390) | 332×531 / 762×476 / 1246×779 | Rasmussen, Aranda, 1–0, Rice, 5–2 |
 | White Sox 2, Guardians 0 | 1–5 · bottom · ccw (left at 390) | 332×531 / 762×476 / 1246×779 | Progressive Field, Kwan, 3–0, Ramírez, 4–3 |
-| Video | 1–4 · right · cw (bottom at 390) | 332×553 / 762×457 / 1246×748 | Three Commons clips with the whole file on request; GIFcommit+ |
+| Video | 1–4 · right · cw (bottom at 390) | 332×553 / 762×457 / 1246×748 | Three Commons clips with the whole file on request; GIFspn+ |
 | Wild Card round | 1–6 · left · cw (two 1–3 grids at 390) | 2×(332×221) / 762×469 / 1246×767 | 18–2, 2005, Sept. 27, 8–0, 2–1, .500 |
 | By the numbers | 1–6 · right · ccw (two 1–3 grids at 390) | 2×(332×221) / 762×469 / 1246×767 | 103, 14, Oct. 23, 3 of 4, 2, 5 |
 
@@ -94,7 +94,7 @@ labelled an archive and says what each clip is.
   to its full frame, its description and its credit; every fact with a
   longer passage has a More control. The band grows; nothing scrolls inside
   a box; covered content is inert.
-- The scoreboard strip, the GIFcommit+ banner, the promotions, the newsletter
+- The scoreboard strip, the GIFspn+ banner, the promotions, the newsletter
   form, the schedule, the bracket and Trending are flat, as the reference's
   are. The form sends nothing and says so.
 - Clips play silently while on screen and are their posters under reduced

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "Golden Grids layout study 06: the ESPN front page rebuilt as GIFcommit, a fictional network, on the fifth day of the 2026 MLB Division Series.",
+  "description": "Golden Grids layout study 06: the ESPN front page rebuilt as GIFspn, a fictional network, on the fifth day of the 2026 MLB Division Series.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

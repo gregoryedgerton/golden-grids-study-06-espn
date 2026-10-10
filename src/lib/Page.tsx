@@ -6,7 +6,7 @@ import { CREDITS, DATELINE, DIVISION, NETWORK, TEAMS, VIDEOS, type Game, type Se
 /**
  * The shell, after the reference: a black global bar with the wordmark and
  * the sports, a scoreboard strip of today's and last night's games, the
- * page, and a footer. GIFcommit is a fictional network; the games are real.
+ * page, and a footer. GIFspn is a fictional network; the games are real.
  */
 const NAV = ["MLB", "Scores", "Bracket", "Schedule", "Video", "Watch", "Fantasy", "More"];
 
@@ -18,8 +18,8 @@ export function Page({ children }: { children: ReactNode }) {
       <Tools />
       <header className="global">
         <div className="global__bar">
-          <a className="wordmark" href="#top" aria-label="GIFcommit home">
-            <span className="wordmark__mark" aria-hidden="true">GIFcommit</span>
+          <a className="wordmark" href="#top" aria-label="GIFspn home">
+            <span className="wordmark__mark" aria-hidden="true">GIFspn</span>
           </a>
           <nav className="global__nav" aria-label="Sports">
             <ul>

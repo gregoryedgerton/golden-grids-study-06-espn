@@ -11,7 +11,7 @@ import { NUMBERS, WILDCARD_FACTS } from "./content";
 import "./styles.css";
 
 /**
- * GIFcommit's front page, after the structure of espn.com's: the lead story,
+ * GIFspn's front page, after the structure of espn.com's: the lead story,
  * the headlines, a subscription banner, a story card for each series with
  * a strip of people under the two that are closest to ending, video, the
  * round that was, promotions, the numbers, the schedule, the bracket and
