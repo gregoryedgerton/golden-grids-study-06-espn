@@ -1,6 +1,7 @@
 {
   "number": "06",
   "name": "ESPN",
+  "brand": "GIFspn",
   "notice": "A layout study, not ESPN: a front page rebuilt with Golden Grids for GIFspn, a fictional network with a parody name. Scores are the public record; not affiliated with ESPN or Major League Baseball.",
   "pages": {
     "index": "Front page"
