@@ -70,8 +70,9 @@ html[data-fonts-pending] .fit, html[data-fonts-pending] .wordmark__mark, html[da
 .global__nav { flex: 1 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
 .global__nav::-webkit-scrollbar { display: none; }
 .global__nav ul { margin: 0; padding: 0; list-style: none; display: flex; gap: 2px; }
-.global__nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; color: #fff; text-decoration: none; font: 600 13px/1 var(--font); letter-spacing: 0.02em; white-space: nowrap; border-bottom: 3px solid transparent; }
+.global__nav a, .global__nav span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; color: #fff; text-decoration: none; font: 600 13px/1 var(--font); letter-spacing: 0.02em; white-space: nowrap; border-bottom: 3px solid transparent; }
 .global__nav a:hover { border-bottom-color: #fff; }
+.global__nav span { opacity: 0.85; }
 .global__nav a[aria-current] { border-bottom-color: var(--red-ground); }
 .global__account { margin: 0 0 0 auto; font: 600 13px/1 var(--font); color: #fff; white-space: nowrap; }
 .global__account span { color: var(--live); font-size: 10px; margin-right: 4px; }
@@ -79,7 +80,6 @@ html[data-fonts-pending] .fit, html[data-fonts-pending] .wordmark__mark, html[da
 .scores ul { width: min(100% - 24px, 1280px); margin: 0 auto; padding: 8px 0; list-style: none; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: thin; }
 .scores li { flex: 0 0 auto; }
 .game { display: grid; gap: 2px; min-width: 190px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); text-decoration: none; font-size: 13px; }
-.game:hover { border-color: var(--muted); }
 .game--live { border-color: var(--live); }
 .game__meta { display: flex; justify-content: space-between; gap: 8px; font: 600 11px/1.3 var(--font); color: var(--muted); letter-spacing: 0.04em; text-transform: uppercase; }
 .game__state--live { color: var(--live); }

@@ -9,6 +9,8 @@ import { CREDITS, DATELINE, DIVISION, NETWORK, TEAMS, VIDEOS, type Game, type Se
  * page, and a footer. GIFspn is a fictional network; the games are real.
  */
 const NAV = ["MLB", "Scores", "Bracket", "Schedule", "Video", "Watch", "Fantasy", "More"];
+/** The nav items that have a section on this page; the rest are the reference's, for show. */
+const HERE = ["Bracket", "Schedule", "Video"];
 
 export function Page({ children }: { children: ReactNode }) {
   return (
@@ -18,12 +20,12 @@ export function Page({ children }: { children: ReactNode }) {
       <Tools />
       <header className="global">
         <div className="global__bar">
-          <a className="wordmark" href="#top" aria-label="GIFspn home">
+          <a className="wordmark" href="#content" aria-label="GIFspn home">
             <span className="wordmark__mark" aria-hidden="true">GIFspn</span>
           </a>
           <nav className="global__nav" aria-label="Sports">
             <ul>
-              {NAV.map((n, i) => <li key={n}><a href={i === 0 ? "#content" : `#${n.toLowerCase()}`} aria-current={i === 0 ? "page" : undefined}>{n}</a></li>)}
+              {NAV.map((n, i) => <li key={n}>{i === 0 ? <a href="#content" aria-current="page">{n}</a> : HERE.includes(n) ? <a href={`#${n.toLowerCase()}`}>{n}</a> : <span>{n}</span>}</li>)}
             </ul>
           </nav>
           <p className="global__account"><span aria-hidden="true">●</span> Log in</p>
@@ -76,11 +78,11 @@ function GameCard({ s, g }: { s: Series; g: Game }) {
   const awayWon = done && (g.awayScore ?? 0) > (g.homeScore ?? 0);
   const state = g.status === "live" ? "Live" : done ? `Final${g.note ? ` · ${g.note}` : ""}` : g.time ?? g.date;
   return (
-    <a className={`game game--${g.status}`} href={`#${s.id}`} aria-label={`${s.round} Game ${g.n}, ${away.city} ${away.name} at ${home.city} ${home.name}, ${done ? `final ${g.awayScore} to ${g.homeScore}` : state}`}>
+    <div className={`game game--${g.status}`} role="group" aria-label={`${s.round} Game ${g.n}, ${away.city} ${away.name} at ${home.city} ${home.name}, ${done ? `final ${g.awayScore} to ${g.homeScore}` : state}`}>
       <span className="game__meta">{s.round} · G{g.n} <span className={`game__state${g.status === "live" ? " game__state--live" : ""}`}>{state}</span></span>
       <span className={`game__team${done && !awayWon ? " game__team--lost" : ""}`}><span className="game__seed">{away.seed}</span>{away.name}<span className="game__score">{done ? g.awayScore : ""}</span></span>
       <span className={`game__team${done && awayWon ? " game__team--lost" : ""}`}><span className="game__seed">{home.seed}</span>{home.name}<span className="game__score">{done ? g.homeScore : ""}</span></span>
       <span className="game__series">{s.summary}{g.tv && !done ? ` · ${g.tv}` : ""}</span>
-    </a>
+    </div>
   );
 }
