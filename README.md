@@ -1,3 +1,5 @@
+GIFcommit00005
+
 # Layout study — the ESPN front page, as GIFspn
 
 **Live:** [`https://gregoryedgerton.github.io/golden-grids-study-06-espn/`](https://gregoryedgerton.github.io/golden-grids-study-06-espn/)
