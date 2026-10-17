@@ -13,7 +13,7 @@ fact, score, headline and photograph record; `src/lib/Page.tsx` is the shell
 bracket, trending); `src/lib/cards.tsx` what goes inside a square. Read
 `docs/program/PROGRAM.md`, then `STUDY-BRIEF.md`, then `README.md` here.
 
-Live at https://gregoryedgerton.github.io/golden-grids-study-06-espn/;
+Live at https://gregoryedgerton.github.io/golden-grids-study-06-gifspn/;
 pushing to `main` deploys.
 
 ## Rules that are not negotiable
@@ -321,3 +321,5 @@ of signing in.
   app or Download button, and no price set as an offer beside one. A price
   is described in text.
 - A link to a real login or account page, the reference's or anyone else's.
+
+- **Address (2026-10-17, Greg).** The repository moved from `golden-grids-study-06-espn` to `golden-grids-study-06-gifspn`, so the reference's name is no longer in the study's web address (a step against the Safe Browsing flag on the shared origin); the old address no longer serves anything.

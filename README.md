@@ -2,7 +2,7 @@ GIFcommit00005
 
 # Layout study — the ESPN front page, as GIFspn
 
-**Live:** [`https://gregoryedgerton.github.io/golden-grids-study-06-espn/`](https://gregoryedgerton.github.io/golden-grids-study-06-espn/)
+**Live:** [`https://gregoryedgerton.github.io/golden-grids-study-06-gifspn/`](https://gregoryedgerton.github.io/golden-grids-study-06-gifspn/)
 
 An unaffiliated layout study. It rebuilds the structure of the espn.com
 front page — a scoreboard strip, a lead story card, a headline list, story
@@ -141,3 +141,5 @@ npm run dev
 `npm run build` type-checks and builds to `dist/`; pushing to `main` deploys
 to GitHub Pages. The library is consumed from npm at its published version,
 never linked locally.
+
+- **Address (2026-10-17, Greg).** The repository moved from `golden-grids-study-06-espn` to `golden-grids-study-06-gifspn`, so the reference's name is no longer in the study's web address (a step against the Safe Browsing flag on the shared origin); the old address no longer serves anything.
