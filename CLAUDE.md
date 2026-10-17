@@ -153,9 +153,10 @@ README: the smallest line, and that no screen-reader user has tested it.
   later date without changing the dateline, the scoreboard, the lead and
   the headlines together.
 - The network is fictional. GIFspn, GIFspn+, its price, the fantasy game, the
-  app and the newsletter are invented and say so in the footer; the buttons
-  do nothing and the form sends nothing. Real broadcasters (TBS, FS1) are
-  named as data in the schedule, nothing more.
+  app and the newsletter are invented and say so in the footer; the fantasy
+  button does nothing, the form sends nothing, and GIFspn+ and the app are
+  described in text with no button (see the remediation below). Real
+  broadcasters (TBS, FS1) are named as data in the schedule, nothing more.
 - Photographs and video are Wikimedia Commons files under CC0, CC BY or
   CC BY-SA, listed in `captures/commons.tsv` and credited in the footer and
   in each expanded photograph. A photograph of a player in another club's
@@ -301,6 +302,12 @@ of signing in.
 - The newsletter button reads Subscribe, not Sign up (`NETWORK.newsletter.cta`
   in `src/content.ts`). The email field keeps `autoComplete="off"` and the
   note under it still says the form sends nothing.
+- The GIFspn+ banner has no Subscribe button: its price is a fact in a
+  description list (Price, $11.99 a month) with the note that the tier is
+  fictional and there is nothing to buy, and the bullet "Cancel any time",
+  a term of sale, is now "The whiparound show". The `.btn--plus` style is gone.
+- The app promotion has no "Get the app" button: `NETWORK.app.note` says the
+  app is fictional and there is nothing to download.
 
 **Never bring back**
 - A sign-in, log-in, sign-up or create-account control or label, in the
@@ -310,4 +317,7 @@ of signing in.
   `family-name`, `tel`, `street-address`, `postal-code` or `cc-*`). The
   newsletter's email field carries `autoComplete="off"`, sends nothing and
   says so; no other field takes personal data.
+- A control that reads as paying or downloading: no Subscribe, Buy, Get the
+  app or Download button, and no price set as an offer beside one. A price
+  is described in text.
 - A link to a real login or account page, the reference's or anyone else's.

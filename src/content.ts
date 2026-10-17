@@ -285,8 +285,8 @@ export const TRENDING = [
 export const NETWORK = {
   name: "GIFspn",
   tagline: "A fictional network built for a layout study.",
-  plus: { name: "GIFspn+", price: "$11.99", period: "a month", pitch: "Every out-of-market postseason game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "Cancel any time"] },
+  plus: { name: "GIFspn+", price: "$11.99", period: "a month", pitch: "Every out-of-market postseason game, the whiparound show between them, and the full archive of this postseason's condensed games.", bullets: ["Live and on demand", "Four screens at once", "The whiparound show"] },
   fantasy: { name: "GIFspn Fantasy", pitch: "Postseason pick'em: choose a winner for every series and a player for every game. Standings reset each round.", cta: "Make your picks" },
-  app: { pitch: "Scores in the notification shade, the scoreboard in a widget, and alerts when a game is in its final inning.", cta: "Get the app" },
+  app: { pitch: "Scores in the notification shade, the scoreboard in a widget, and alerts when a game is in its final inning.", note: "The app is as fictional as the network. There is nothing to download." },
   newsletter: { pitch: "One email a morning through the end of the World Series: last night's scores, today's starters, the one fact worth repeating.", cta: "Subscribe" },
 };

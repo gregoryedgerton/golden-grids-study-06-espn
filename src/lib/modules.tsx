@@ -5,7 +5,9 @@ import { DIVISION, NETWORK, TEAMS, TRENDING, WILDCARD, type Series } from "../co
  * The flat modules the reference interleaves with its stories: a
  * subscription banner, the fantasy and app promotions, a newsletter form,
  * the schedule, the bracket and the trending list. Lists stay lists. The
- * network is fictional and the forms send nothing.
+ * network is fictional and the forms send nothing. Nothing here reads as
+ * paying or downloading: the subscription banner and the app promotion
+ * describe, in text, and carry no button (Safe Browsing, 2026-10).
  */
 export function PlusBanner() {
   const p = NETWORK.plus;
@@ -17,11 +19,11 @@ export function PlusBanner() {
         <p className="promo__pitch">{p.pitch}</p>
         <ul className="promo__bullets">{p.bullets.map((b) => <li key={b}>{b}</li>)}</ul>
       </div>
-      <div className="promo__offer">
-        <p className="promo__price"><span className="promo__amount">{p.price}</span> {p.period}</p>
-        <button type="button" className="btn btn--plus" aria-describedby="plus-note">Subscribe</button>
-        <p id="plus-note" className="promo__note">A fictional service for a layout study; the button does nothing.</p>
-      </div>
+      <dl className="promo__offer">
+        <dt className="promo__term">Price</dt>
+        <dd className="promo__price"><span className="promo__amount">{p.price}</span> {p.period}</dd>
+        <dd className="promo__note">A fictional tier for a layout study. There is nothing to buy.</dd>
+      </dl>
     </section>
   );
 }
@@ -41,7 +43,7 @@ export function Promos() {
         <p className="promo__kicker">The app</p>
         <h2 className="promo__title promo__title--small">{NETWORK.name} on your phone</h2>
         <p className="promo__pitch">{NETWORK.app.pitch}</p>
-        <button type="button" className="btn">{NETWORK.app.cta}</button>
+        <p className="promo__note">{NETWORK.app.note}</p>
       </article>
       <article className="promo promo--card">
         <p className="promo__kicker">Newsletter</p>

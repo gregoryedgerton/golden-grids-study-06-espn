@@ -182,7 +182,9 @@ main { width: min(100% - 24px, 1280px); margin-inline: auto; }
 .promo__pitch { margin: 0; max-width: var(--measure); font-size: 16px; line-height: 1.5; }
 .promo__bullets { margin: 10px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; }
 .promo__bullets li::before { content: "✓ "; color: #ff8a8a; }
-.promo__offer { display: grid; gap: 8px; justify-items: start; }
+.promo__offer { display: grid; gap: 8px; justify-items: start; margin: 0; }
+.promo__offer dd { margin: 0; }
+.promo__term { font: 700 12px/1.6 var(--font); letter-spacing: 0.08em; text-transform: uppercase; color: #c9c9cb; }
 @media (min-width: 640px) { .promo__offer { justify-items: end; text-align: right; } }
 .promo__price { margin: 0; font-size: 14px; }
 .promo__amount { font: 800 2rem/1 var(--display); }
@@ -190,8 +192,7 @@ main { width: min(100% - 24px, 1280px); margin-inline: auto; }
 .promo--plus .promo__note { color: #c9c9cb; }
 .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 20px; font: 700 14px/1 var(--font); letter-spacing: 0.02em; color: #fff; background: var(--link); border: 0; border-radius: 999px; cursor: pointer; }
 .btn:hover { filter: brightness(1.1); }
-.btn--plus { background: var(--red-ground); color: #fff; }
-@media (prefers-color-scheme: dark) { .btn { color: #0b0b0c; } .btn--plus { color: #fff; } }
+@media (prefers-color-scheme: dark) { .btn { color: #0b0b0c; } }
 .promos { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .promo--card { display: grid; gap: 8px; align-content: start; justify-items: start; }
 .form { display: grid; gap: 6px; width: 100%; }
