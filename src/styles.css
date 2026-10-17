@@ -74,8 +74,6 @@ html[data-fonts-pending] .fit, html[data-fonts-pending] .wordmark__mark, html[da
 .global__nav a:hover { border-bottom-color: #fff; }
 .global__nav span { opacity: 0.85; }
 .global__nav a[aria-current] { border-bottom-color: var(--red-ground); }
-.global__account { margin: 0 0 0 auto; font: 600 13px/1 var(--font); color: #fff; white-space: nowrap; }
-.global__account span { color: var(--live); font-size: 10px; margin-right: 4px; }
 .scores { background: var(--card); border-bottom: 1px solid var(--line); }
 .scores ul { width: min(100% - 24px, 1280px); margin: 0 auto; padding: 8px 0; list-style: none; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: thin; }
 .scores li { flex: 0 0 auto; }

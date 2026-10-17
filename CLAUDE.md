@@ -282,3 +282,32 @@ opened in StackBlitz at `https://stackblitz.com/~/github.com/gregoryedgerton/gol
 - Do not append `?file=` to the `~/github.com` link; it made the IDE fail to
   start in testing. The classic `/github/` importer accepts `?file=` but waits
   on a WebSocket and can stall at "Cloning repo from GitHub".
+
+## Safe Browsing remediation (2026-10)
+
+On 2026-10-17 Google Safe Browsing flagged the whole origin,
+gregoryedgerton.github.io, as social engineering: every study and the
+marketing site. The first trigger was the demo bank sign-in in Study 19
+(GIFbank), since removed. The heuristic reads appearance, not behaviour, and a
+brand-styled header with a sign-in label adds to the signal even when the
+label does nothing, so every study drops whatever looks like signing in or
+collecting personal data. "Account matter" in the standard above stops short
+of signing in.
+
+**What changed here**
+- The global bar no longer carries "● Log in" (`src/lib/Page.tsx`); its
+  unused `.global__account` styles are gone. The sports nav runs to the
+  right edge.
+- The newsletter button reads Subscribe, not Sign up (`NETWORK.newsletter.cta`
+  in `src/content.ts`). The email field keeps `autoComplete="off"` and the
+  note under it still says the form sends nothing.
+
+**Never bring back**
+- A sign-in, log-in, sign-up or create-account control or label, in the
+  global bar or anywhere else, even as plain text for show.
+- A user name, password or verification field, or an input that autofills
+  personal data (`autoComplete` of `email`, `name`, `given-name`,
+  `family-name`, `tel`, `street-address`, `postal-code` or `cc-*`). The
+  newsletter's email field carries `autoComplete="off"`, sends nothing and
+  says so; no other field takes personal data.
+- A link to a real login or account page, the reference's or anyone else's.

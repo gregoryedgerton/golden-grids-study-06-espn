@@ -28,7 +28,8 @@ export function Page({ children }: { children: ReactNode }) {
               {NAV.map((n, i) => <li key={n}>{i === 0 ? <a href="#content" aria-current="page">{n}</a> : HERE.includes(n) ? <a href={`#${n.toLowerCase()}`}>{n}</a> : <span>{n}</span>}</li>)}
             </ul>
           </nav>
-          <p className="global__account"><span aria-hidden="true">●</span> Log in</p>
+          {/* The reference's Log in is left out: a sign-in label in a brand's
+              header reads as phishing to Safe Browsing. */}
         </div>
         <Scoreboard />
       </header>
